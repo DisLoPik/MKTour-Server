@@ -1,0 +1,27 @@
+hostname,ips,cname_chain,ports,flows,tcp_flows,udp_flows,total_bytes,seen_via
+support-cdn-mariokarttour.akamaized.net,[IP REDACTED],a1911.b.akamai.net,TCP/443,2,2,0,2219806,dns;tls_sni
+api.mariokarttour.com,[IP REDACTED],d3qu5x04mblgpc.cloudfront.net,TCP/443,115,115,0,1159616,dns;tls_sni
+ec2-[IP REDACTED].us-west-2.compute.amazonaws.com,[IP REDACTED],,TCP/14106;UDP/14106,2,1,1,308156,dns
+pubsub.googleapis.com,[IP REDACTED],,TCP/443,6,6,0,298730,dns;tls_sni
+[ip] [IP REDACTED],[IP REDACTED],,UDP/50909,1,0,1,224343,ip_only
+[ip] [IP REDACTED],[IP REDACTED],,UDP/63944,1,0,1,223391,ip_only
+public-content-cdn-mariokarttour.akamaized.net,[IP REDACTED],a1826.b.akamai.net,TCP/443,21,21,0,207203,dns;tls_sni
+[ip] [IP REDACTED],[IP REDACTED],,UDP/58849,1,0,1,182540,ip_only
+[ip] [IP REDACTED],[IP REDACTED],,UDP/61090,1,0,1,161459,ip_only
+[ip] [IP REDACTED],[IP REDACTED],,UDP/54811,1,0,1,157628,ip_only
+announcement-resource-cdn.mariokarttour.com,[IP REDACTED],star.mariokarttour.com.edgekey.net -> e29929.b.akamaiedge.net,TCP/443,2,2,0,118687,dns;tls_sni
+c-lp1.accounts.nintendo.com,[IP REDACTED],c-lp1.accounts.nintendo.com.edgekey.net -> e3844.b.akamaiedge.net,TCP/443,10,10,0,105306,dns;tls_sni
+a6913b7b80402974409b47079c29d775.baas.nintendo.com,[IP REDACTED],,TCP/443,8,8,0,67287,dns;tls_sni
+support.mariokarttour.com,[IP REDACTED],alb-prod-live-web-common-401-422136932.us-west-2.elb.amazonaws.com,TCP/443,1,1,0,55070,dns;tls_sni
+api.accounts.nintendo.com,[IP REDACTED],apix.accounts.nintendo.com.akadns.net -> a2047.api1.akamai.net,TCP/443,2,2,0,21279,dns;tls_sni
+pvp.mariokarttour.com,[IP REDACTED],nlb-prod-live-pvp-401-553f17039538b4e6.elb.us-west-2.amazonaws.com,TCP/11401,1,1,0,15061,dns
+[ip] [IP REDACTED],[IP REDACTED],,UDP/53,57,0,57,14072,ip_only
+firebaselogging.googleapis.com,[IP REDACTED],,TCP/443,1,1,0,8095,dns;tls_sni
+sessions.bugsnag.com,[IP REDACTED],,TCP/443,1,1,0,7028,dns;tls_sni
+download-cdn-mariokarttour.akamaized.net,[IP REDACTED],a1919.d.akamai.net,TCP/443,1,1,0,5218,dns;tls_sni
+[ip] [IP REDACTED],[IP REDACTED],,UDP/62352,1,0,1,4762,ip_only
+g2122d301.lp1.p.srv.nintendo.net,[IP REDACTED],,UDP/34343,1,0,1,1216,dns
+nat-check-0.mariokarttour.com,[IP REDACTED],,UDP/33334;UDP/34543,4,0,4,780,dns
+nat-check-1.mariokarttour.com,[IP REDACTED],,UDP/34543,2,0,2,408,dns
+[ip] [IP REDACTED],[IP REDACTED],,UDP/63935,1,0,1,363,ip_only
+_dns.resolver.arpa,[IP REDACTED],,,0,0,0,0,dns

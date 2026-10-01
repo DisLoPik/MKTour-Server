@@ -1,0 +1,115 @@
+frame.number,frame.time_relative,ip.src,ip.dst,dns.id,dns.flags.response,dns.qry.name,dns.qry.type,dns.flags.rcode,dns.a,dns.aaaa,dns.cname,dns.resp.ttl
+"1","0.000000000","[IP REDACTED]","[IP REDACTED]","0xb263","False","_dns.resolver.arpa","64",,,,,
+"2","0.082206000","[IP REDACTED]","[IP REDACTED]","0xb263","True","_dns.resolver.arpa","64","0","[IP REDACTED],[IP REDACTED]","[IP REDACTED],[IP REDACTED]",,"86400,86400,86400,86400,86400,86400"
+"3","5.154464000","[IP REDACTED]","[IP REDACTED]","0xd974","False","sessions.bugsnag.com","1",,,,,
+"4","5.178273000","[IP REDACTED]","[IP REDACTED]","0xd974","True","sessions.bugsnag.com","1","0","[IP REDACTED]",,,"98"
+"22","6.328186000","[IP REDACTED]","[IP REDACTED]","0x157e","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"23","6.361467000","[IP REDACTED]","[IP REDACTED]","0x157e","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"36","6.631649000","[IP REDACTED]","[IP REDACTED]","0x4055","False","api.accounts.nintendo.com","1",,,,,
+"38","6.664100000","[IP REDACTED]","[IP REDACTED]","0x4055","True","api.accounts.nintendo.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"apix.accounts.nintendo.com.akadns.net,a2047.api9.akamai.net","20,60,20,20,20,20,20,20,20,20,20"
+"60","7.290879000","[IP REDACTED]","[IP REDACTED]","0x64ee","False","api.mariokarttour.com","1",,,,,
+"61","7.325619000","[IP REDACTED]","[IP REDACTED]","0x64ee","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","8,60,60,60,60"
+"216","8.157718000","[IP REDACTED]","[IP REDACTED]","0xee30","False","download-cdn-mariokarttour.akamaized.net","1",,,,,
+"217","8.160172000","[IP REDACTED]","[IP REDACTED]","0x934c","False","download-cdn-mariokarttour.akamaized.net","28",,,,,
+"223","8.180022000","[IP REDACTED]","[IP REDACTED]","0xee30","True","download-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1919.d.akamai.net","577,20,20"
+"228","8.187781000","[IP REDACTED]","[IP REDACTED]","0x934c","True","download-cdn-mariokarttour.akamaized.net","28","0",,,"a1919.d.akamai.net","600,857"
+"530","9.584122000","[IP REDACTED]","[IP REDACTED]","0x8255","False","pubsub.googleapis.com","1",,,,,
+"538","9.621205000","[IP REDACTED]","[IP REDACTED]","0x8255","True","pubsub.googleapis.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,,"300,300,300,300,300,300,300,300,300,300,300,300"
+"719","24.334407000","[IP REDACTED]","[IP REDACTED]","0xe7bf","False","api.mariokarttour.com","1",,,,,
+"720","24.454299000","[IP REDACTED]","[IP REDACTED]","0xe7bf","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"796","57.432660000","[IP REDACTED]","[IP REDACTED]","0x57a9","False","api.mariokarttour.com","1",,,,,
+"797","57.522647000","[IP REDACTED]","[IP REDACTED]","0x57a9","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","13,60,60,60,60"
+"846","60.599524000","[IP REDACTED]","[IP REDACTED]","0xea31","False","public-content-cdn-mariokarttour.akamaized.net","28",,,,,
+"847","60.603099000","[IP REDACTED]","[IP REDACTED]","0x8d7d","False","public-content-cdn-mariokarttour.akamaized.net","1",,,,,
+"848","60.638254000","[IP REDACTED]","[IP REDACTED]","0x8d7d","True","public-content-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1826.b.akamai.net","18396,20,20"
+"849","60.644146000","[IP REDACTED]","[IP REDACTED]","0xea31","True","public-content-cdn-mariokarttour.akamaized.net","28","0",,,"a1826.b.akamai.net","20419,1000"
+"1029","187.311548000","[IP REDACTED]","[IP REDACTED]","0x99dc","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"1030","187.349045000","[IP REDACTED]","[IP REDACTED]","0x99dc","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"1044","195.705817000","[IP REDACTED]","[IP REDACTED]","0xff3f","False","api.mariokarttour.com","1",,,,,
+"1045","195.742592000","[IP REDACTED]","[IP REDACTED]","0xff3f","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","23,60,60,60,60"
+"1206","254.747894000","[IP REDACTED]","[IP REDACTED]","0x2557","False","api.mariokarttour.com","1",,,,,
+"1207","254.798258000","[IP REDACTED]","[IP REDACTED]","0x2557","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","13,60,60,60,60"
+"1286","260.845832000","[IP REDACTED]","[IP REDACTED]","0xf1cc","False","public-content-cdn-mariokarttour.akamaized.net","1",,,,,
+"1287","260.849814000","[IP REDACTED]","[IP REDACTED]","0x4868","False","public-content-cdn-mariokarttour.akamaized.net","1",,,,,
+"1288","260.872433000","[IP REDACTED]","[IP REDACTED]","0xf1cc","True","public-content-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1826.b.akamai.net","17722,20,20"
+"1289","260.875446000","[IP REDACTED]","[IP REDACTED]","0x4868","True","public-content-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1826.b.akamai.net","20651,20,20"
+"1458","363.375941000","[IP REDACTED]","[IP REDACTED]","0x0033","False","api.mariokarttour.com","1",,,,,
+"1459","363.404127000","[IP REDACTED]","[IP REDACTED]","0x0033","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","25,60,60,60,60"
+"1462","363.426216000","[IP REDACTED]","[IP REDACTED]","0x1bef","False","pubsub.googleapis.com","1",,,,,
+"1470","363.451778000","[IP REDACTED]","[IP REDACTED]","0x1bef","True","pubsub.googleapis.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,,"300,300,300,300,300,300,300,300,300,300,300,300"
+"1508","367.280720000","[IP REDACTED]","[IP REDACTED]","0x4ff4","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"1509","367.312435000","[IP REDACTED]","[IP REDACTED]","0x4ff4","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"1669","388.398864000","[IP REDACTED]","[IP REDACTED]","0x777b","False","api.mariokarttour.com","1",,,,,
+"1671","388.440818000","[IP REDACTED]","[IP REDACTED]","0x777b","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"1868","417.200875000","[IP REDACTED]","[IP REDACTED]","0xf3d8","False","public-content-cdn-mariokarttour.akamaized.net","1",,,,,
+"1869","417.203332000","[IP REDACTED]","[IP REDACTED]","0x0875","False","public-content-cdn-mariokarttour.akamaized.net","1",,,,,
+"1870","417.225034000","[IP REDACTED]","[IP REDACTED]","0x0875","True","public-content-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1826.b.akamai.net","15164,20,20"
+"1878","417.254121000","[IP REDACTED]","[IP REDACTED]","0xf3d8","True","public-content-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1826.b.akamai.net","21101,20,20"
+"2049","547.295447000","[IP REDACTED]","[IP REDACTED]","0x368b","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"2050","547.331155000","[IP REDACTED]","[IP REDACTED]","0x368b","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"2056","547.384882000","[IP REDACTED]","[IP REDACTED]","0xb428","False","firebaselogging.googleapis.com","1",,,,,
+"2061","547.407312000","[IP REDACTED]","[IP REDACTED]","0xb428","True","firebaselogging.googleapis.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,,"300,300,300,300,300,300,300,300"
+"2081","570.209902000","[IP REDACTED]","[IP REDACTED]","0x7d45","False","api.mariokarttour.com","1",,,,,
+"2082","570.262245000","[IP REDACTED]","[IP REDACTED]","0x7d45","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","3,60,60,60,60"
+"2129","574.996490000","[IP REDACTED]","[IP REDACTED]","0x41d7","False","api.mariokarttour.com","1",,,,,
+"2130","575.048159000","[IP REDACTED]","[IP REDACTED]","0x41d7","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,55,55,55,55"
+"2297","665.050147000","[IP REDACTED]","[IP REDACTED]","0x3ff3","False","api.mariokarttour.com","1",,,,,
+"2298","665.087716000","[IP REDACTED]","[IP REDACTED]","0x3ff3","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","21,60,60,60,60"
+"2375","666.124507000","[IP REDACTED]","[IP REDACTED]","0x3554","False","pubsub.googleapis.com","1",,,,,
+"2376","666.146133000","[IP REDACTED]","[IP REDACTED]","0x3554","True","pubsub.googleapis.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,,"300,300,300,300,300,300,300,300,300,300,300,300"
+"2646","685.631442000","[IP REDACTED]","[IP REDACTED]","0x13bd","False","api.mariokarttour.com","1",,,,,
+"2647","685.704118000","[IP REDACTED]","[IP REDACTED]","0x13bd","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","25,60,60,60,60"
+"2816","718.410862000","[IP REDACTED]","[IP REDACTED]","0x0ae9","False","api.mariokarttour.com","1",,,,,
+"2817","718.513775000","[IP REDACTED]","[IP REDACTED]","0x0ae9","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"2987","727.288679000","[IP REDACTED]","[IP REDACTED]","0xdb20","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"2988","727.337302000","[IP REDACTED]","[IP REDACTED]","0xdb20","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"3081","733.240332000","[IP REDACTED]","[IP REDACTED]","0x5313","False","nat-check-0.mariokarttour.com","1",,,,,
+"3082","733.288460000","[IP REDACTED]","[IP REDACTED]","0x5313","True","nat-check-0.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,,"30,30"
+"3083","733.306120000","[IP REDACTED]","[IP REDACTED]","0x623c","False","nat-check-1.mariokarttour.com","1",,,,,
+"3084","733.351825000","[IP REDACTED]","[IP REDACTED]","0x623c","True","nat-check-1.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,,"30,30"
+"3103","734.750232000","[IP REDACTED]","[IP REDACTED]","0x592d","False","g2122d301.lp1.p.srv.nintendo.net","1",,,,,
+"3104","734.781219000","[IP REDACTED]","[IP REDACTED]","0x592d","True","g2122d301.lp1.p.srv.nintendo.net","1","0","[IP REDACTED]",,,"300"
+"3111","736.140747000","[IP REDACTED]","[IP REDACTED]","0xd08d","False","pvp.mariokarttour.com","28",,,,,
+"3112","736.144937000","[IP REDACTED]","[IP REDACTED]","0xb478","False","pvp.mariokarttour.com","1",,,,,
+"3113","736.179093000","[IP REDACTED]","[IP REDACTED]","0xd08d","True","pvp.mariokarttour.com","28","0",,,"nlb-prod-live-pvp-401-553f17039538b4e6.elb.us-west-2.amazonaws.com","30,60"
+"3114","736.187205000","[IP REDACTED]","[IP REDACTED]","0xb478","True","pvp.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"nlb-prod-live-pvp-401-553f17039538b4e6.elb.us-west-2.amazonaws.com","30,60,60,60,60"
+"3189","752.837471000","[IP REDACTED]","[IP REDACTED]","0xe294","False","ec2-[IP REDACTED].us-west-2.compute.amazonaws.com","1",,,,,
+"3190","752.843493000","[IP REDACTED]","[IP REDACTED]","0xc6de","False","ec2-[IP REDACTED].us-west-2.compute.amazonaws.com","28",,,,,
+"3191","752.864958000","[IP REDACTED]","[IP REDACTED]","0xe294","True","ec2-[IP REDACTED].us-west-2.compute.amazonaws.com","1","0","[IP REDACTED]",,,"21600"
+"3192","752.873678000","[IP REDACTED]","[IP REDACTED]","0xc6de","True","ec2-[IP REDACTED].us-west-2.compute.amazonaws.com","28","0",,,,"60"
+"3308","756.500065000","[IP REDACTED]","[IP REDACTED]","0xf718","False","api.mariokarttour.com","1",,,,,
+"3315","756.519633000","[IP REDACTED]","[IP REDACTED]","0xf718","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,22,22,22,22"
+"6433","784.488802000","[IP REDACTED]","[IP REDACTED]","0x714a","False","api.mariokarttour.com","1",,,,,
+"6443","784.534855000","[IP REDACTED]","[IP REDACTED]","0x714a","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"13879","877.130812000","[IP REDACTED]","[IP REDACTED]","0xe41c","False","api.mariokarttour.com","1",,,,,
+"13880","877.173942000","[IP REDACTED]","[IP REDACTED]","0xe41c","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","16,60,60,60,60"
+"13881","877.179589000","[IP REDACTED]","[IP REDACTED]","0xea10","False","api.mariokarttour.com","1",,,,,
+"13891","877.227684000","[IP REDACTED]","[IP REDACTED]","0xea10","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","23,60,60,60,60"
+"14104","888.350057000","[IP REDACTED]","[IP REDACTED]","0x89f3","False","support.mariokarttour.com","1",,,,,
+"14105","888.458992000","[IP REDACTED]","[IP REDACTED]","0x89f3","True","support.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"alb-prod-live-web-common-401-422136932.us-west-2.elb.amazonaws.com","30,60,60,60,60"
+"14123","888.932238000","[IP REDACTED]","[IP REDACTED]","0x4f70","False","announcement-resource-cdn.mariokarttour.com","1",,,,,
+"14124","888.934295000","[IP REDACTED]","[IP REDACTED]","0xfc3e","False","support-cdn-mariokarttour.akamaized.net","1",,,,,
+"14125","888.959453000","[IP REDACTED]","[IP REDACTED]","0xfc3e","True","support-cdn-mariokarttour.akamaized.net","1","0","[IP REDACTED],[IP REDACTED]",,"a1911.b.akamai.net","21600,20,20"
+"14128","888.979599000","[IP REDACTED]","[IP REDACTED]","0x4f70","True","announcement-resource-cdn.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,"star.mariokarttour.com.edgekey.net,e29929.b.akamaiedge.net","30,18622,20,20"
+"14393","907.292839000","[IP REDACTED]","[IP REDACTED]","0xe86a","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"14394","907.338196000","[IP REDACTED]","[IP REDACTED]","0xe86a","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"30"
+"14411","907.655928000","[IP REDACTED]","[IP REDACTED]","0xcbc8","False","api.accounts.nintendo.com","1",,,,,
+"14413","907.682650000","[IP REDACTED]","[IP REDACTED]","0xcbc8","True","api.accounts.nintendo.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"apix.accounts.nintendo.com.akadns.net,a2047.api1.akamai.net","29,60,20,20,20,20,20,20,20,20,20"
+"14451","909.316069000","[IP REDACTED]","[IP REDACTED]","0xcdb3","False","announcement-resource-cdn.mariokarttour.com","1",,,,,
+"14537","909.348973000","[IP REDACTED]","[IP REDACTED]","0xcdb3","True","announcement-resource-cdn.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,"star.mariokarttour.com.edgekey.net,e29929.b.akamaiedge.net","30,21600,20,20"
+"14671","920.411602000","[IP REDACTED]","[IP REDACTED]","0x18f5","False","api.mariokarttour.com","1",,,,,
+"14672","920.447669000","[IP REDACTED]","[IP REDACTED]","0x18f5","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"14944","931.644797000","[IP REDACTED]","[IP REDACTED]","0x4daf","False","c-lp1.accounts.nintendo.com","1",,,,,
+"14945","931.649707000","[IP REDACTED]","[IP REDACTED]","0xef04","False","c-lp1.accounts.nintendo.com","28",,,,,
+"14946","931.680910000","[IP REDACTED]","[IP REDACTED]","0x4daf","True","c-lp1.accounts.nintendo.com","1","0","[IP REDACTED]",,"c-lp1.accounts.nintendo.com.edgekey.net,e3844.b.akamaiedge.net","30,147,20"
+"14947","931.683374000","[IP REDACTED]","[IP REDACTED]","0xef04","True","c-lp1.accounts.nintendo.com","28","0",,,"c-lp1.accounts.nintendo.com.edgekey.net,e3844.b.akamaiedge.net","30,300,841"
+"15217","948.222377000","[IP REDACTED]","[IP REDACTED]","0xb5a9","False","nat-check-0.mariokarttour.com","1",,,,,
+"15218","948.251295000","[IP REDACTED]","[IP REDACTED]","0xb5a9","True","nat-check-0.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,,"30,30"
+"15219","948.266550000","[IP REDACTED]","[IP REDACTED]","0x61ab","False","nat-check-1.mariokarttour.com","1",,,,,
+"15220","948.287450000","[IP REDACTED]","[IP REDACTED]","0x61ab","True","nat-check-1.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED]",,,"30,30"
+"15280","997.033061000","[IP REDACTED]","[IP REDACTED]","0x6b13","False","api.mariokarttour.com","1",,,,,
+"15281","997.080353000","[IP REDACTED]","[IP REDACTED]","0x6b13","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"15383","1030.414240000","[IP REDACTED]","[IP REDACTED]","0xd296","False","api.mariokarttour.com","1",,,,,
+"15384","1030.475950000","[IP REDACTED]","[IP REDACTED]","0xd296","True","api.mariokarttour.com","1","0","[IP REDACTED],[IP REDACTED],[IP REDACTED],[IP REDACTED]",,"d3qu5x04mblgpc.cloudfront.net","30,60,60,60,60"
+"15410","1042.439129000","[IP REDACTED]","[IP REDACTED]","0x9062","False","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1",,,,,
+"15411","1042.468497000","[IP REDACTED]","[IP REDACTED]","0x9062","True","a6913b7b80402974409b47079c29d775.baas.nintendo.com","1","0","[IP REDACTED]",,,"23"

@@ -1,0 +1,17 @@
+apk,permission,kind
+base.apk,android.permission.ACCESS_COARSE_LOCATION,uses-permission
+base.apk,android.permission.ACCESS_FINE_LOCATION,uses-permission
+base.apk,android.permission.ACCESS_NETWORK_STATE,uses-permission
+base.apk,android.permission.ACCESS_WIFI_STATE,uses-permission
+base.apk,android.permission.INTERNET,uses-permission
+base.apk,android.permission.POST_NOTIFICATIONS,uses-permission
+base.apk,android.permission.VIBRATE,uses-permission
+base.apk,android.permission.WAKE_LOCK,uses-permission
+base.apk,android.permission.WRITE_EXTERNAL_STORAGE,uses-permission
+base.apk,com.android.vending.BILLING,uses-permission
+base.apk,com.google.android.c2dm.permission.RECEIVE,uses-permission
+base.apk,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,uses-permission
+base.apk,com.nintendo.zaka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,uses-permission
+base.apk,com.nintendo.zaka.permission.C2D_MESSAGE,uses-permission
+base.apk,com.nintendo.zaka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,declared-permission
+base.apk,com.nintendo.zaka.permission.C2D_MESSAGE,declared-permission
