@@ -1,0 +1,511 @@
+{
+  "base.apk": {
+    "file": "base.apk",
+    "package": "com.nintendo.zaka",
+    "split": null,
+    "version_code": "439630101",
+    "version_name": "4.0.0",
+    "min_sdk": "23",
+    "target_sdk": "35",
+    "compile_sdk": "36",
+    "app_label": "Mario Kart",
+    "main_activity": "com.google.firebase.MessagingUnityPlayerActivity",
+    "permissions": [
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.INTERNET",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "com.android.vending.BILLING",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "com.nintendo.zaka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.nintendo.zaka.permission.C2D_MESSAGE"
+    ],
+    "declared_permissions": [
+      "com.nintendo.zaka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.nintendo.zaka.permission.C2D_MESSAGE"
+    ],
+    "activities": [
+      "com.android.billingclient.api.ProxyBillingActivity",
+      "com.android.billingclient.api.ProxyBillingActivityV2",
+      "com.google.android.gms.common.api.GoogleApiActivity",
+      "com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity",
+      "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+      "com.google.firebase.MessagingUnityPlayerActivity",
+      "com.google.games.bridge.GenericResolutionActivity",
+      "com.google.games.bridge.NativeBridgeActivity",
+      "com.nintendo.npf.sdk.internal.app.MiiStudioActivity",
+      "com.nintendo.npf.sdk.internal.app.NaAuthenticationActivity"
+    ],
+    "services": [
+      "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+      "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+      "com.google.android.gms.measurement.AppMeasurementJobService",
+      "com.google.android.gms.measurement.AppMeasurementService",
+      "com.google.firebase.components.ComponentDiscoveryService",
+      "com.google.firebase.messaging.FirebaseMessagingService",
+      "com.google.firebase.messaging.MessageForwardingService",
+      "com.google.firebase.messaging.cpp.ListenerService",
+      "com.google.firebase.messaging.cpp.RegistrationIntentService"
+    ],
+    "receivers": [
+      "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+      "com.google.android.gms.measurement.AppMeasurementReceiver",
+      "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+      "com.unity.androidnotifications.UnityNotificationManager",
+      "com.unity.androidnotifications.UnityNotificationRestartReceiver",
+      "jp.co.nintendo.booster.android.localpush.NotificationReceiver"
+    ],
+    "providers": [
+      "androidx.core.content.FileProvider",
+      "androidx.startup.InitializationProvider",
+      "com.bugsnag.android.internal.BugsnagContentProvider",
+      "com.google.android.gms.games.provider.PlayGamesInitProvider",
+      "com.google.firebase.provider.FirebaseInitProvider"
+    ],
+    "features": [
+      "android.hardware.location",
+      "android.hardware.location.gps",
+      "android.hardware.sensor.accelerometer",
+      "android.hardware.touchscreen",
+      "android.hardware.touchscreen.multitouch",
+      "android.hardware.touchscreen.multitouch.distinct"
+    ],
+    "libraries": [
+      "android.ext.adservices"
+    ],
+    "signature_schemes": {
+      "v1": true,
+      "v2": true,
+      "v3": true
+    },
+    "certificates_v1": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "certificates_v2": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "certificates_v3": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "meta_data": [
+      {
+        "name": "android.support.FILE_PROVIDER_PATHS",
+        "value": null,
+        "resource": "@7F110002"
+      },
+      {
+        "name": "google_analytics_adid_collection_enabled",
+        "value": "false",
+        "resource": null
+      },
+      {
+        "name": "android.max_aspect",
+        "value": "2.500000",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.messaging.default_notification_icon",
+        "value": null,
+        "resource": "@7F07006D"
+      },
+      {
+        "name": "unityplayer.SkipPermissionsDialog",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "unity.splash-mode",
+        "value": "2",
+        "resource": null
+      },
+      {
+        "name": "unity.splash-enable",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "unity.launch-fullscreen",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "unity.render-outside-safearea",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "notch.config",
+        "value": "portrait|landscape",
+        "resource": null
+      },
+      {
+        "name": "unity.auto-report-fully-drawn",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "unityplayer.UnityActivity",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "notch_support",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "instantapps.clients.allowed",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.gms.games.version",
+        "value": "@7F0E0042",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.play.billingclient.version",
+        "value": "7.1.1",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.iid.Registrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+        "value": "com.google.firebase.components.ComponentRegistrar",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.gms.version",
+        "value": "@7F090004",
+        "resource": null
+      },
+      {
+        "name": "androidx.emoji2.text.EmojiCompatInitializer",
+        "value": "androidx.startup",
+        "resource": null
+      },
+      {
+        "name": "androidx.lifecycle.ProcessLifecycleInitializer",
+        "value": "androidx.startup",
+        "resource": null
+      },
+      {
+        "name": "com.nintendo.npf.sdk.internal.app.AppActivityInitializer",
+        "value": "androidx.startup",
+        "resource": null
+      },
+      {
+        "name": "backend:com.google.android.datatransport.cct.CctBackendFactory",
+        "value": "cct",
+        "resource": null
+      },
+      {
+        "name": "com.unity.androidnotifications.exact_scheduling",
+        "value": "0",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.gms.games.APP_ID",
+        "value": "482624233067",
+        "resource": null
+      },
+      {
+        "name": "com.google.android.gms.games.unityVersion",
+        "value": "0.11.01",
+        "resource": null
+      },
+      {
+        "name": "com.android.vending.splits.required",
+        "value": "true",
+        "resource": null
+      },
+      {
+        "name": "com.android.stamp.source",
+        "value": "https://play.google.com/store",
+        "resource": null
+      },
+      {
+        "name": "com.android.stamp.type",
+        "value": "STAMP_TYPE_DISTRIBUTION_APK",
+        "resource": null
+      },
+      {
+        "name": "com.android.vending.splits",
+        "value": null,
+        "resource": "@7F110006"
+      },
+      {
+        "name": "com.android.vending.derived.apk.id",
+        "value": "3",
+        "resource": null
+      }
+    ],
+    "intent_filter_data": [
+      {
+        "scheme": "https"
+      },
+      {
+        "scheme": "mailto"
+      },
+      {
+        "scheme": "https"
+      },
+      {
+        "scheme": "npf5dbf84c0c704b31b",
+        "host": "auth"
+      },
+      {
+        "scheme": "npf5dbf84c0c704b31b",
+        "host": "mii_studio"
+      }
+    ],
+    "application_attrs": {
+      "theme": "@7F0F0119",
+      "label": "@7F0E0022",
+      "icon": "@7F0C0000",
+      "debuggable": "false",
+      "isGame": "true",
+      "extractNativeLibs": "true",
+      "fullBackupContent": "@7F110004",
+      "networkSecurityConfig": "@7F110005",
+      "roundIcon": "@7F0C0001",
+      "appCategory": "0",
+      "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "dataExtractionRules": "@7F110001",
+      "enableOnBackInvokedCallback": "true"
+    },
+    "queries": [
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  data",
+        "scheme": "https"
+      },
+      {
+        "tag": "  action",
+        "name": "android.intent.action.VIEW"
+      },
+      {
+        "tag": "  category",
+        "name": "android.intent.category.BROWSABLE"
+      },
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  data",
+        "scheme": "mailto"
+      },
+      {
+        "tag": "  action",
+        "name": "android.intent.action.VIEW"
+      },
+      {
+        "tag": "  category",
+        "name": "android.intent.category.BROWSABLE"
+      },
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  action",
+        "name": "com.android.vending.billing.InAppBillingService.BIND"
+      },
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  action",
+        "name": "com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"
+      },
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  action",
+        "name": "android.intent.action.VIEW"
+      },
+      {
+        "tag": "  data",
+        "scheme": "https"
+      },
+      {
+        "tag": "intent"
+      },
+      {
+        "tag": "  action",
+        "name": "android.support.customtabs.action.CustomTabsService"
+      }
+    ]
+  },
+  "split_config.arm64_v8a.apk": {
+    "file": "split_config.arm64_v8a.apk",
+    "package": "com.nintendo.zaka",
+    "split": "config.arm64_v8a",
+    "version_code": "439630101",
+    "version_name": null,
+    "min_sdk": null,
+    "target_sdk": null,
+    "compile_sdk": null,
+    "app_label": "",
+    "main_activity": null,
+    "permissions": [],
+    "declared_permissions": [],
+    "activities": [],
+    "services": [],
+    "receivers": [],
+    "providers": [],
+    "features": [],
+    "libraries": [],
+    "signature_schemes": {
+      "v1": true,
+      "v2": true,
+      "v3": true
+    },
+    "certificates_v1": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "certificates_v2": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "certificates_v3": [
+      {
+        "subject": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+        "serial": "0x85352979260b68f7362f9b1b7a2f61163d8e5acc",
+        "not_before": "2019-02-20 23:43:39+00:00",
+        "not_after": "2049-02-20 23:43:39+00:00",
+        "signature_algorithm": "sha256_rsa",
+        "public_key_algorithm": "rsa",
+        "public_key_bits": 4096,
+        "sha256": "ecf52a0ff500374dae7555a50b4b085228304af5deab013abf437fe4ab03c926",
+        "sha1": "76f167cb8a3c8d2521be60c603611804532b8e65",
+        "md5": "01c4365c67f8b5f7a8340ba8246d767d"
+      }
+    ],
+    "meta_data": [
+      {
+        "name": "com.android.vending.derived.apk.id",
+        "value": "3",
+        "resource": null
+      }
+    ],
+    "intent_filter_data": [],
+    "application_attrs": {
+      "hasCode": "false",
+      "extractNativeLibs": "true"
+    },
+    "queries": []
+  }
+}

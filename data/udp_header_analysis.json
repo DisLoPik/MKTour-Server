@@ -1,0 +1,1861 @@
+{
+ "34": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-0.mariokarttour.com:33334",
+  "out": [],
+  "in": []
+ },
+ "35": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-0.mariokarttour.com:34543",
+  "out": [],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x4e"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0x43"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x01"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x44"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0xd1"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0xe5"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x87"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x67"
+   }
+  ]
+ },
+ "36": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-1.mariokarttour.com:34543",
+  "out": [],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x4e"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0x43"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x03"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x44"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0xd1"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0xe5"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x87"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x67"
+   }
+  ]
+ },
+ "42": {
+  "role": "Izumo room/relay server (UDP side of TCP control channel on same port)",
+  "remote": "ec2-[IP REDACTED].us-west-2.compute.amazonaws.com:14106",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "few values: 0x02(690),0x03(82)"
+   },
+   {
+    "offset": 1,
+    "behaviour": "high-variance (233 distinct)"
+   },
+   {
+    "offset": 2,
+    "behaviour": "high-variance (243 distinct)"
+   },
+   {
+    "offset": 3,
+    "behaviour": "high-variance (240 distinct)"
+   },
+   {
+    "offset": 4,
+    "behaviour": "high-variance (239 distinct)"
+   },
+   {
+    "offset": 5,
+    "behaviour": "high-variance (238 distinct)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "high-variance (236 distinct)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "high-variance (235 distinct)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "high-variance (234 distinct)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0x71(684),0x95(82),0x72(6)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "varies (127 distinct; top 0xa8,0x90,0x56)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "high-variance (236 distinct)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 13,
+    "behaviour": "varies (9 distinct; top 0x1c,0x1e,0x1d)"
+   },
+   {
+    "offset": 14,
+    "behaviour": "few values: 0xaa(690),0x5c(82)"
+   },
+   {
+    "offset": 15,
+    "behaviour": "few values: 0x5c(690),0x06(82)"
+   },
+   {
+    "offset": 16,
+    "behaviour": "few values: 0x06(690),0x00(82)"
+   },
+   {
+    "offset": 17,
+    "behaviour": "varies (21 distinct; top 0x63,0x00,0x1a)"
+   },
+   {
+    "offset": 18,
+    "behaviour": "high-variance (241 distinct)"
+   },
+   {
+    "offset": 19,
+    "behaviour": "high-variance (243 distinct)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (240 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (236 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (246 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x02"
+   },
+   {
+    "offset": 1,
+    "behaviour": "high-variance (246 distinct)"
+   },
+   {
+    "offset": 2,
+    "behaviour": "high-variance (256 distinct)"
+   },
+   {
+    "offset": 3,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 4,
+    "behaviour": "high-variance (252 distinct)"
+   },
+   {
+    "offset": 5,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "high-variance (252 distinct)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "high-variance (248 distinct)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0x71(1045),0x72(10),0x70(5)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "varies (128 distinct; top 0x7b,0x75,0x29)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 13,
+    "behaviour": "varies (8 distinct; top 0x20,0x1f,0x1c)"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xaa"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x5c"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x06"
+   }
+  ]
+ },
+ "43": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:58849",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (34 distinct; top 0x70,0xb3,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0x7c(634),0x00(54)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xb7(634),0x00(54)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xc8(686),0x00(2)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xdb(686),0x00(2)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(301),0x01(256),0x02(131)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (11 distinct; top 0x7a,0x7b,0x73)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (240 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (238 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (236 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (36 distinct; top 0x70,0x40,0xf0)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xc8(971),0x00(49)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xdb(971),0x00(49)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0x7c(1017),0x00(3)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xb7(1017),0x00(3)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "varies (6 distinct; top 0x34,0x35,0x36)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x6e"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xb7"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0xf1"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0xf9"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xba"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x91"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (16 distinct; top 0x5b,0x5c,0x5d)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (254 distinct)"
+   }
+  ]
+ },
+ "44": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:50909",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (28 distinct; top 0x70,0x20,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xb7(658),0x00(46)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0x0c(658),0x00(46)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xc8(702),0x00(2)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xdb(702),0x00(2)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(301),0x01(256),0x02(147)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (11 distinct; top 0x76,0x77,0x7b)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (239 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (242 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (239 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (243 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (31 distinct; top 0x70,0x40,0xf0)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xc8(951),0x00(40)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xdb(951),0x00(40)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0xb7"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0x0c"
+   },
+   {
+    "offset": 10,
+    "behaviour": "varies (5 distinct; top 0x09,0x08,0x07)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x56"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0x3b"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x31"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0xe6"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0x11"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0xbb"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (16 distinct; top 0x7e,0x7f,0x80)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (252 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (251 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (251 distinct)"
+   }
+  ]
+ },
+ "45": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:62352",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (13 distinct; top 0x70,0x63,0xc1)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0x30(21),0x00(3)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xc7(21),0x00(3)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xc8(22),0x00(2)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xdb(22),0x00(2)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (22 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (24 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (24 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (24 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (24 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "few values: 0x63(1),0x43(1)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x30"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0xc7"
+   },
+   {
+    "offset": 10,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 11,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0xad"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xbf"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0xfb"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x2d"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x84"
+   },
+   {
+    "offset": 19,
+    "behaviour": "constant 0x6d"
+   },
+   {
+    "offset": 20,
+    "behaviour": "few values: 0x56(1),0xa3(1)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "few values: 0x04(1),0xd0(1)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "few values: 0xc5(1),0x25(1)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "few values: 0xed(1),0xaf(1)"
+   }
+  ]
+ },
+ "46": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:63935",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0x63"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 10,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 11,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 20,
+    "behaviour": "few values: 0x6b(1),0x6f(1)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "few values: 0x6f(1),0x83(1)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "few values: 0xe9(1),0x30(1)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "few values: 0x63(1),0xee(1)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0x63"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x39"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0xb1"
+   },
+   {
+    "offset": 10,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 11,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x04"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xbf"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0xe5"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0xfe"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xed"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x7c"
+   },
+   {
+    "offset": 19,
+    "behaviour": "constant 0xc2"
+   },
+   {
+    "offset": 20,
+    "behaviour": "constant 0xcf"
+   },
+   {
+    "offset": 21,
+    "behaviour": "constant 0xac"
+   },
+   {
+    "offset": 22,
+    "behaviour": "constant 0x02"
+   },
+   {
+    "offset": 23,
+    "behaviour": "constant 0xae"
+   }
+  ]
+ },
+ "47": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:63944",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (31 distinct; top 0x70,0xe1,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xe0(807),0x00(52)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0x07(807),0x00(52)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xc8(856),0x00(3)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xdb(856),0x00(3)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(307),0x01(256),0x02(256),0x03(40)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (12 distinct; top 0x7d,0x7c,0x7a)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (252 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (243 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (249 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (36 distinct; top 0x70,0xb3,0x10)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xc8(809),0x00(51)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xdb(809),0x00(51)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xe0(859),0x00(1)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0x07(859),0x00(1)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "varies (5 distinct; top 0x13,0x14,0x15)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0x7a"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x34"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0xbf"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xc1"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x9a"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (12 distinct; top 0xc6,0xc5,0xc2)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (254 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (249 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (251 distinct)"
+   }
+  ]
+ },
+ "48": {
+  "role": "NPLN / Pia monitoring (one-way telemetry, Pia magic, unencrypted header)",
+  "remote": "g2122d301.lp1.p.srv.nintendo.net:34343",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x10"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 10,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 11,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 19,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 20,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 21,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 22,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 23,
+    "behaviour": "constant 0x00"
+   }
+  ],
+  "in": []
+ },
+ "50": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:61090",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (32 distinct; top 0x70,0xb3,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xe4(750),0x00(52)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xd7(750),0x00(52)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xc8(801),0x00(1)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xdb(801),0x00(1)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(286),0x01(256),0x02(256),0x03(4)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (12 distinct; top 0x7d,0x7c,0x7a)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (251 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (33 distinct; top 0x70,0xb3,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xc8(731),0x00(46)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xdb(731),0x00(46)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0xe4(775),0x00(2)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0xd7(775),0x00(2)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(300),0x01(256),0x02(221)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0xaa"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0x1c"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0xc7"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x97"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0x49"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0xfb"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (12 distinct; top 0x9a,0x97,0x98)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (251 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (242 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (244 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (244 distinct)"
+   }
+  ]
+ },
+ "51": {
+  "role": "Pia P2P peer (direct mesh connection to another player)",
+  "remote": "[IP REDACTED]:54811",
+  "out": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (23 distinct; top 0x70,0x20,0x73)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0x65(588),0x00(38)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0x4e(588),0x00(38)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 9,
+    "behaviour": "constant 0xdb"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x00(293),0x01(256),0x02(77)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x72"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0xc8"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x36"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0x8b"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xb3"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0x69"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (10 distinct; top 0x77,0x76,0x7a)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (248 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (238 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (235 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (234 distinct)"
+   }
+  ],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x32"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0xab"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x64"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0x90"
+   },
+   {
+    "offset": 5,
+    "behaviour": "varies (22 distinct; top 0x70,0xf0,0x40)"
+   },
+   {
+    "offset": 6,
+    "behaviour": "few values: 0xc8(901),0x00(37)"
+   },
+   {
+    "offset": 7,
+    "behaviour": "few values: 0xdb(901),0x00(37)"
+   },
+   {
+    "offset": 8,
+    "behaviour": "few values: 0x65(936),0x00(2)"
+   },
+   {
+    "offset": 9,
+    "behaviour": "few values: 0x4e(936),0x00(2)"
+   },
+   {
+    "offset": 10,
+    "behaviour": "few values: 0x02(256),0x01(255),0x03(234),0x00(193)"
+   },
+   {
+    "offset": 11,
+    "behaviour": "incrementing counter (256 values)"
+   },
+   {
+    "offset": 12,
+    "behaviour": "constant 0x00"
+   },
+   {
+    "offset": 13,
+    "behaviour": "constant 0x8e"
+   },
+   {
+    "offset": 14,
+    "behaviour": "constant 0x59"
+   },
+   {
+    "offset": 15,
+    "behaviour": "constant 0x13"
+   },
+   {
+    "offset": 16,
+    "behaviour": "constant 0xd1"
+   },
+   {
+    "offset": 17,
+    "behaviour": "constant 0xbe"
+   },
+   {
+    "offset": 18,
+    "behaviour": "constant 0xd7"
+   },
+   {
+    "offset": 19,
+    "behaviour": "varies (14 distinct; top 0xfa,0xf6,0xf8)"
+   },
+   {
+    "offset": 20,
+    "behaviour": "high-variance (253 distinct)"
+   },
+   {
+    "offset": 21,
+    "behaviour": "high-variance (251 distinct)"
+   },
+   {
+    "offset": 22,
+    "behaviour": "high-variance (250 distinct)"
+   },
+   {
+    "offset": 23,
+    "behaviour": "high-variance (250 distinct)"
+   }
+  ]
+ },
+ "66": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-0.mariokarttour.com:33334",
+  "out": [],
+  "in": []
+ },
+ "67": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-0.mariokarttour.com:34543",
+  "out": [],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x4e"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0x43"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x01"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x44"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0xd1"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0xe5"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0xa2"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x7d"
+   }
+  ]
+ },
+ "68": {
+  "role": "Pia NAT-check (NAT type probe, 'NC' magic)",
+  "remote": "nat-check-1.mariokarttour.com:34543",
+  "out": [],
+  "in": [
+   {
+    "offset": 0,
+    "behaviour": "constant 0x4e"
+   },
+   {
+    "offset": 1,
+    "behaviour": "constant 0x43"
+   },
+   {
+    "offset": 2,
+    "behaviour": "constant 0x03"
+   },
+   {
+    "offset": 3,
+    "behaviour": "constant 0x44"
+   },
+   {
+    "offset": 4,
+    "behaviour": "constant 0xd1"
+   },
+   {
+    "offset": 5,
+    "behaviour": "constant 0xe5"
+   },
+   {
+    "offset": 6,
+    "behaviour": "constant 0x98"
+   },
+   {
+    "offset": 7,
+    "behaviour": "constant 0xa2"
+   },
+   {
+    "offset": 8,
+    "behaviour": "constant 0x7d"
+   }
+  ]
+ }
+}

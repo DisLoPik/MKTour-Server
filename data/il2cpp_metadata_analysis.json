@@ -1,0 +1,198 @@
+{
+  "global_metadata_dat_in_base_apk": false,
+  "files_containing_magic_AF1BB1FA": [],
+  "libil2cpp_contains_string_global-metadata.dat": false,
+  "libil2cpp_size": 119284480,
+  "libil2cpp_sections": [
+    {
+      "name": ".note.android.ident",
+      "offset": "0x270",
+      "size": 152,
+      "type": "SHT_NOTE"
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "offset": "0x308",
+      "size": 36,
+      "type": "SHT_NOTE"
+    },
+    {
+      "name": ".dynsym",
+      "offset": "0x330",
+      "size": 443448,
+      "type": "SHT_DYNSYM"
+    },
+    {
+      "name": ".gnu.version",
+      "offset": "0x6c768",
+      "size": 36954,
+      "type": "SHT_GNU_versym"
+    },
+    {
+      "name": ".gnu.version_r",
+      "offset": "0x757c4",
+      "size": 96,
+      "type": "SHT_GNU_verneed"
+    },
+    {
+      "name": ".gnu.hash",
+      "offset": "0x75828",
+      "size": 123364,
+      "type": "SHT_GNU_HASH"
+    },
+    {
+      "name": ".hash",
+      "offset": "0x93a0c",
+      "size": 147824,
+      "type": "SHT_HASH"
+    },
+    {
+      "name": ".dynstr",
+      "offset": "0xb7b7c",
+      "size": 1066394,
+      "type": "SHT_STRTAB"
+    },
+    {
+      "name": ".rela.dyn",
+      "offset": "0x1bc118",
+      "size": 10523904,
+      "type": "SHT_RELA"
+    },
+    {
+      "name": ".rela.plt",
+      "offset": "0xbc5618",
+      "size": 250080,
+      "type": "SHT_RELA"
+    },
+    {
+      "name": ".rodata",
+      "offset": "0xc02700",
+      "size": 3761171,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".gcc_except_table",
+      "offset": "0xf98b14",
+      "size": 1024504,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "offset": "0x1092d0c",
+      "size": 2221092,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".eh_frame",
+      "offset": "0x12b1130",
+      "size": 10226228,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".text",
+      "offset": "0x1c71b64",
+      "size": 23813764,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": "il2cpp",
+      "offset": "0x33279e8",
+      "size": 35819564,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".plt",
+      "offset": "0x5550a20",
+      "size": 166752,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".data.rel.ro",
+      "offset": "0x5579580",
+      "size": 1760816,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".fini_array",
+      "offset": "0x57273b0",
+      "size": 16,
+      "type": "SHT_FINI_ARRAY"
+    },
+    {
+      "name": ".init_array",
+      "offset": "0x57273c0",
+      "size": 616,
+      "type": "SHT_INIT_ARRAY"
+    },
+    {
+      "name": ".dynamic",
+      "offset": "0x5727628",
+      "size": 464,
+      "type": "SHT_DYNAMIC"
+    },
+    {
+      "name": ".got",
+      "offset": "0x57277f8",
+      "size": 8816,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".got.plt",
+      "offset": "0x5729a68",
+      "size": 83384,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".data",
+      "offset": "0x573e020",
+      "size": 27802392,
+      "type": "SHT_PROGBITS"
+    },
+    {
+      "name": ".bss",
+      "offset": "0x71c1b38",
+      "size": 2550960,
+      "type": "SHT_NOBITS"
+    },
+    {
+      "name": ".shstrtab",
+      "offset": "0x71c1b38",
+      "size": 258,
+      "type": "SHT_STRTAB"
+    }
+  ],
+  "libil2cpp_data_section": {
+    "offset": "0x573e020",
+    "size": 27802392,
+    "entropy": 7.591
+  },
+  "high_entropy_regions_in_.data_(>=1MiB, >7.5 bits/byte)": [
+    {
+      "start": "0x5bad020",
+      "end": "0x5e90020",
+      "size_bytes": 3026944,
+      "mean_entropy": 7.937
+    },
+    {
+      "start": "0x5f20020",
+      "end": "0x6380020",
+      "size_bytes": 4587520,
+      "mean_entropy": 7.638
+    },
+    {
+      "start": "0x6c58020",
+      "end": "0x7128020",
+      "size_bytes": 5046272,
+      "mean_entropy": 8.0
+    }
+  ],
+  "compression_magics_in_.data": {
+    "zstd": 0,
+    "lz4_frame": 0,
+    "gzip": 0,
+    "xz": 0
+  },
+  "conclusion": "global-metadata.dat is NOT shipped as a file. libil2cpp.so has no 'global-metadata.dat' string and no metadata magic; its .data section (27.8 MB) carries roughly 12-16 MB of high-entropy data (7.6-8.0 bits/byte, depending on block threshold) with no compression container signature. This is consistent with metadata embedded in libil2cpp.so and encrypted/obfuscated by a customised IL2CPP loader. Il2CppDumper could not be run statically.",
+  "il2cppdumper_run": false,
+  "il2cppdumper_version_installed": "v6.7.46 (net6 win) in tools/Il2CppDumper"
+}

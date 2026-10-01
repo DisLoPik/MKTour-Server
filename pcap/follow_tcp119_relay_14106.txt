@@ -1,0 +1,455 @@
+# TCP stream 119: application payload, client [IP REDACTED]:44798 <-> server [IP REDACTED]:14106
+# C>S = client to server, S>C = server to client. IP addresses and IP-bearing bytes are replaced with [IP REDACTED].
+# each line: 16 bytes hex | printable ASCII
+
+C>S  t=752.989444s  frame 3196  76 bytes
+  06 00 00 00 00 00 00 00 90 2f 98 41 7e ca 44 af  |........./.A~.D.|
+  d3 a8 86 35 54 b9 0c 00 95 a8 a9 1a aa 5c 06 00  |...5T........\..|
+  00 ec b7 ed a2 01 6b d7 1b aa 5c 06 57 ef bd cf  |......k...\.W...|
+  93 14 6a 18 c9 1d 96 77 0c d2 90 c0 ec fe 5d 11  |..j....w......].|
+  a6 70 99 a1 b7 c3 9a 20 0c cc 4c ce              |.p..... ..L.|
+
+S>C  t=753.114843s  frame 3198  59 bytes
+  01 00 37 00 65 63 32 2d                          |..7.ec2-|
+  [IP REDACTED]
+  2e 75 73 2d 77 65 73 74 2d 32 2e 63 6f 6d 70 75  |.us-west-2.compu|
+  74 65 2e 61 6d 61 7a 6f 6e 61 77 73 2e 63 6f 6d  |te.amazonaws.com|
+  2c 31 34 31 30 36                                |,14106|
+
+C>S  t=753.126551s  frame 3200  47 bytes
+  ab 00 00 00 fd cc c5 45 d9 8a 2a 57 71 3a 1f db  |.......E..*Wq:..|
+  1b aa 5c 06 1a e0 73 80 c2 91 2f 09 90 c8 89 c0  |..\...s.../.....|
+  fd c4 01 d8 cd 50 8b 98 39 20 84 73 27 8f e1     |.....P..9 .s'..|
+
+S>C  t=753.226171s  frame 3202  156 bytes
+  80 00 01 00 13 81 00 01 00 96 2d 49 af d2 15 d9  |..........-I....|
+  af 71 35 20 e6 1b aa 5c 06 82 66 ba 9a c4 86 2d  |.q5 ...\..f....-|
+  5a 79 44 bb 37 ee e0 8f 28 9a ca cc 4c 3c 9e ec  |ZyD.7...(...L<..|
+  17 f8 f2 b8 d5 ee e9 4b 14 fc cf 90 93 65 ba 49  |.......K.....e.I|
+  ee 22 86 4c 60 25 3d d1 b8 84 da d3 fa c9 14 66  |.".L`%=........f|
+  81 72 7a 5c 64 4a 85 ed cf e8 0d 99 51 38 44 c8  |.rz\dJ......Q8D.|
+  30 2b bb 4d 62 62 1e 15 f7 8d 0e 7f ce f1 c1 61  |0+.Mbb.........a|
+  b2 57 63 6b 5c d3 02 78 75 33 63 06 8f 4a 2d 85  |.Wck\..xu3c..J-.|
+  5e 0d d3 71 2b 06 00 3a f0 8b e7 1d 15 e3 51 1a  |^..q+..:......Q.|
+  fa 84 d4 25 8b a5 8f 6f 0f 0c f6 5a              |...%...o...Z|
+
+C>S  t=753.240623s  frame 3203  4 bytes
+  80 01 01 00                                      |....|
+
+S>C  t=753.328301s  frame 3207  266 bytes
+  05 82 01 01 00 b2 69 ac d5 a1 22 a7 8d 71 97 83  |......i..."..q..|
+  e7 1b aa 5c 06 f4 ef 76 6a 9f ea ea 1e a7 e2 0c  |...\...vj.......|
+  f4 93 90 9a c0 82 6c 95 2f 96 39 5f 89 d3 ec 28  |......l./.9_...(|
+  15 9b 8a 16 21 44 f1 ca 7f c2 3a 39 f6 cc d7 d5  |....!D....:9....|
+  5d 02 7c ce 69 c4 e9 de 73 0e 7d c5 4b 02 b0 e8  |].|.i...s.}.K...|
+  e9 49 37 2f 1d 01 53 ab 68 07 66 73 68 84 94 5a  |.I7/..S.h.fsh..Z|
+  61 cc 7a 4f e1 2d 75 90 ca cb d3 e9 89 de fc ab  |a.zO.-u.........|
+  a2 71 6a b8 8f 3e 67 92 7f a6 e8 8d f5 3e 31 cc  |.qj..>g......>1.|
+  8c f6 ef f5 2d e8 2a fa 1c 15 57 76 7f 48 a3 66  |....-.*...Wv.H.f|
+  31 f8 39 54 71 78 62 be d7 5a f6 fb 98 9c 10 2f  |1.9Tqxb..Z...../|
+  6a b0 7e e1 57 47 80 09 68 d3 be 27 a2 21 c9 f2  |j.~.WG..h..'.!..|
+  8e fb 74 1b 98 6b f8 d1 c1 d6 0b a2 90 51 2e d3  |..t..k.......Q..|
+  4d 69 08 19 8b 56 f4 26 1b e8 ed 48 9b 51 6d 26  |Mi...V.&...H.Qm&|
+  b4 49 15 0d 2e 26 7f c9 43 f1 2b be ec 82 86 a0  |.I...&..C.+.....|
+  ce dd 9a 4c 5e 61 ab 04 f2 31 52 4d 57 02 14 83  |...L^a...1RMW...|
+  23 98 21 61 6e cd 05 61 0c ff d1 4a ee c7 eb 74  |#.!an..a...J...t|
+  06 33 ea 2a b9 5a 31 2d e0 34                    |.3.*.Z1-.4|
+
+C>S  t=753.337466s  frame 3208  4 bytes
+  80 01 02 00                                      |....|
+
+S>C  t=753.529768s  frame 3215  145 bytes
+  0c 81 02 01 00 68 4c c4 4b f1 2d c6 aa 71 39 9a  |.....hL.K.-..q9.|
+  e9 1b aa 5c 06 7b 38 8d cc 75 d0 d5 8f 29 8b 8b  |...\.{8..u...)..|
+  7e 3b b9 ff d1 e3 4f e0 84 2c ef 8d 53 16 e3 01  |~;....O..,..S...|
+  c0 49 7d 36 11 2d 4a 33 0a 8d b9 f0 35 a8 6c d3  |.I}6.-J3....5.l.|
+  54 c9 15 9d a1 0e 9a 94 5f 1c 98 ec d2 29 fa be  |T......._....)..|
+  a8 3c b4 8b 1d 0e 11 8e ea b6 8d 1d 6e 24 7d 43  |.<..........n$}C|
+  08 b6 29 74 8b 74 8a b4 df b4 40 61 10 68 60 94  |..)t.t....@a.h`.|
+  b4 4d 27 20 cd 11 e8 83 af f2 23 06 a1 fd cf 36  |.M' ......#....6|
+  d0 d5 99 47 21 21 54 f0 b0 1a 04 64 42 37 73 41  |...G!!T....dB7sA|
+  fc                                               |.|
+
+S>C  t=753.534911s  frame 3216  266 bytes
+  05 82 03 01 00 c1 d9 f5 e2 cd 6d 4e 34 71 3b bd  |..........mN4q;.|
+  ea 1b aa 5c 06 f4 bd 0f be 8b 99 a2 49 eb fc 5e  |...\........I..^|
+  f6 a1 53 fa 21 7f e3 9c 06 0b c5 93 b1 62 14 7a  |..S.!........b.z|
+  d6 b5 3b da 08 4d 70 9b 26 9c 78 89 e3 95 c4 ab  |..;..Mp.&.x.....|
+  76 6b 20 92 1a fc bf 4e 01 62 ad d0 ce 4c ef c4  |vk ....N.b...L..|
+  0d a9 1f 27 97 dc 07 10 bc 60 96 6f 78 05 d1 5f  |...'.....`.ox.._|
+  00 78 7c 4a 77 7e 5f cd d3 b6 63 5a 2e d6 3a f3  |.x|Jw~_...cZ..:.|
+  6b 8b 0a bb ef 29 66 78 4e 8e bf 8d b8 9d c7 48  |k....)fxN......H|
+  1a 2c 55 d1 5a de 1a 9b d8 c0 f7 c0 36 e9 50 b7  |.,U.Z.......6.P.|
+  e9 75 2f 35 d2 fa 89 25 0c 03 5d 44 7f 13 c3 42  |.u/5...%..]D...B|
+  b7 ae d1 2e 6c b7 9f 8e 41 df e6 e4 0a ea c8 89  |....l...A.......|
+  77 86 e4 d4 88 90 f0 7a fc f1 13 19 9e ae 24 83  |w......z......$.|
+  d7 d0 d8 1b 4f f7 1c f8 95 2f 9f da e6 c8 cc c1  |....O..../......|
+  38 51 31 ad 1d e2 9b 99 71 4a 31 03 cf ce 7b 12  |8Q1.....qJ1...{.|
+  88 10 26 8d 8b 63 a8 f5 9b d4 f5 96 de 4f 8f 6d  |..&..c.......O.m|
+  db 40 37 47 45 1e 30 d0 05 a0 64 a1 a2 71 1b 51  |.@7GE.0...d..q.Q|
+  9f 3f c7 b3 c5 5c 61 41 b2 e5                    |.?...\aA..|
+
+C>S  t=753.541129s  frame 3218  4 bytes
+  80 01 03 00                                      |....|
+
+C>S  t=753.541148s  frame 3219  4 bytes
+  80 01 04 00                                      |....|
+
+S>C  t=753.835299s  frame 3228  266 bytes
+  05 82 04 01 00 a0 53 ae d0 93 26 fa a3 71 a1 03  |......S...&..q..|
+  ee 1b aa 5c 06 f4 46 7c 3e c0 5f 41 61 03 42 5c  |...\..F|>._Aa.B\|
+  93 aa e5 a8 7a d2 da bd 9a 58 c5 f6 fa de ea fa  |....z....X......|
+  32 ab c8 92 56 a9 12 e2 78 08 7e 88 d1 11 3d dc  |2...V...x.~...=.|
+  c5 5d b4 7c a4 20 ac b6 84 a0 c6 22 48 ba ed c6  |.].|. ....."H...|
+  37 5a d2 cb 52 26 05 f6 05 b6 56 e8 cc c2 77 e3  |7Z..R&....V...w.|
+  b8 6f e0 b8 22 a2 ac 7e b9 97 da 64 c6 08 32 6c  |.o.."..~...d..2l|
+  9d 58 24 3c 1e a0 36 2a 66 22 5c 83 a6 d2 c9 6e  |.X$<..6*f"\....n|
+  3a ae 4e 9c 1f f8 05 78 59 a7 a9 a9 6f 79 97 e9  |:.N....xY...oy..|
+  3b 57 e2 99 8c c3 2f 15 d9 51 d9 4e 32 86 6b dc  |;W..../..Q.N2.k.|
+  80 3c bb 99 17 51 48 34 b8 ee cc 0c 4f 36 a8 64  |.<...QH4....O6.d|
+  6e 98 c3 f3 81 9a 6e 03 94 d3 e2 dd 18 35 4b 46  |n.....n......5KF|
+  b5 fb 97 0c 82 e0 ed ab 44 9e b8 f1 05 ef af 49  |........D......I|
+  75 ff 37 32 16 94 01 2b 33 f5 a9 6e 38 c1 15 4b  |u.72...+3..n8..K|
+  a6 34 6c 94 03 b5 85 cc 3b 3f bb 78 2d 65 6d 8b  |.4l.....;?.x-em.|
+  c6 fb c2 97 90 22 b8 50 31 13 74 cf 62 ed 28 d9  |.....".P1.t.b.(.|
+  33 08 32 51 97 25 c3 ee f0 98                    |3.2Q.%....|
+
+C>S  t=753.844844s  frame 3229  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=756.757774s  frame 3367  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=757.074431s  frame 3411  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=759.759750s  frame 3745  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=760.197451s  frame 3796  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=762.859888s  frame 4193  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=763.296515s  frame 4294  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=765.859921s  frame 4612  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=766.378990s  frame 4656  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=768.966345s  frame 4969  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=769.468449s  frame 5026  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=772.065282s  frame 5287  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=772.472942s  frame 5319  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=775.066179s  frame 5603  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=775.488931s  frame 5643  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=778.166916s  frame 5870  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=778.577740s  frame 5920  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=781.263320s  frame 6148  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=781.582259s  frame 6178  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=784.357459s  frame 6424  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=784.679019s  frame 6473  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=787.458935s  frame 6718  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=787.687227s  frame 6737  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=790.557303s  frame 6993  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=790.765883s  frame 7012  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=793.658106s  frame 7270  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=793.771743s  frame 7280  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=796.661912s  frame 7520  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=796.880641s  frame 7541  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=799.760959s  frame 7845  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=799.982015s  frame 7875  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=802.765577s  frame 8112  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=802.983993s  frame 8145  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=805.866082s  frame 8510  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=806.080283s  frame 8531  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=808.957557s  frame 8786  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=809.167909s  frame 8817  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=812.058204s  frame 9089  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=812.173722s  frame 9101  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=815.065573s  frame 9451  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=815.177859s  frame 9466  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=818.158859s  frame 9834  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=818.187748s  frame 9839  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=821.258409s  frame 10235  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=821.284930s  frame 10238  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=824.357587s  frame 10636  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=824.377904s  frame 10638  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=827.461849s  frame 11021  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=827.465208s  frame 11022  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=830.463038s  frame 11409  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=830.477281s  frame 11411  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=833.465909s  frame 11784  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=833.483038s  frame 11787  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=836.560809s  frame 12178  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=836.579629s  frame 12182  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=839.664068s  frame 12576  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=839.673781s  frame 12578  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=842.664638s  frame 12877  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=842.779900s  frame 12890  4 bytes
+  80 01 05 00                                      |....|
+
+S>C  t=845.766387s  frame 13107  4 bytes
+  80 05 01 00                                      |....|
+
+C>S  t=845.880989s  frame 13113  4 bytes
+  80 01 05 00                                      |....|
+
+C>S  t=848.559362s  frame 13211  60 bytes
+  b8 01 05 00 3d 2b 98 75 fc 1b 43 08 71 56 54 8b  |....=+.u..C.qVT.|
+  21 aa 5c 06 27 86 1e 26 6f 41 00 e6 3b c3 31 23  |!.\.'..&oA..;.1#|
+  63 16 54 50 88 e2 6f 2d 94 4b 20 a1 8c 8c e9 f5  |c.TP..o-.K .....|
+  d2 0a ac ff 51 79 3f c1 0f ea ab bc              |....Qy?.....|
+
+S>C  t=848.659690s  frame 13216  4 bytes
+  80 05 02 00                                      |....|
+
+C>S  t=848.699016s  frame 13222  64 bytes
+  bc 02 05 00 ea 37 f6 fd b8 a8 35 b9 71 06 76 8d  |.....7....5.q.v.|
+  21 aa 5c 06 2b 81 42 30 e9 e5 6e 79 da 91 3f f9  |!.\.+.B0..ny..?.|
+  9f 97 63 50 00 63 03 87 45 25 d7 ef a9 7c 1f a5  |..cP.c..E%...|..|
+  73 e9 59 ed 54 df ee cc a3 fe c9 cc 8f 9d c2 b6  |s.Y.T...........|
+
+C>S  t=848.699039s  frame 13223  585 bytes
+  44 84 03 05 00 f2 33 72 56 a4 b1 67 7c 72 ca 76  |D.....3rV..g|r.v|
+  8d 21 aa 5c 06 32 02 d3 c2 07 4a 6e 6b 6e 1e 83  |.!.\.2....Jnkn..|
+  07 e9 38 a1 6a 8c f6 f1 16 09 4a 41 be 8c 0c 81  |..8.j.....JA....|
+  ed a6 c1 5d 60 d5 78 6a 77 52 b6 0d 94 06 28 d0  |...]`.xjwR....(.|
+  c9 39 8a 44 3a ac 63 94 6a f5 c7 df 65 bb 03 1c  |.9.D:.c.j...e...|
+  5d 7f 6c a5 38 05 82 4f aa 2a db 69 e8 e4 d0 b2  |].l.8..O.*.i....|
+  36 5a cc 38 d3 c7 80 bb cb 93 80 17 1b 61 44 80  |6Z.8.........aD.|
+  d0 70 c0 d4 89 b7 04 31 db e2 18 83 00 0b ef 0a  |.p.....1........|
+  2e eb 8a 2b 7b 23 71 57 6d 0c 2a 3c 2e 51 e5 68  |...+{#qWm.*<.Q.h|
+  81 05 fc 8b 5a af 5a 8d 93 9d d4 72 68 fa 64 3f  |....Z.Z....rh.d?|
+  f7 49 1e f5 18 d6 19 7b dd 0c 1c 97 68 5e f8 b2  |.I.....{....h^..|
+  1c c4 00 8c 6e 76 72 7f fa 31 07 60 ce f4 a6 37  |....nvr..1.`...7|
+  51 f6 e0 f2 cb 70 33 3d 02 2b 55 00 c6 ed 71 64  |Q....p3=.+U...qd|
+  f4 3c fd 54 31 61 c2 3c 62 bb 43 02 ed cc 61 31  |.<.T1a.<b.C...a1|
+  fa de b2 af 4a 11 4b 03 3f c2 20 cb f8 9c ac 60  |....J.K.?. ....`|
+  c3 e8 7e ce ae f3 1e b8 07 f2 1e 8a 40 93 22 e4  |..~.........@.".|
+  68 bb 4b a8 de e5 af be 90 40 f8 c9 11 69 44 9c  |h.K......@...iD.|
+  5b 18 46 5a e8 8b 82 71 d0 9b 68 c5 84 a4 1a a3  |[.FZ...q..h.....|
+  8f 68 34 3d 12 a5 ac 9a 91 cb 92 0e fb 54 ef 7c  |.h4=.........T.||
+  22 82 13 72 bd 07 ec 59 34 8d c4 77 f5 aa 95 20  |"..r...Y4..w... |
+  c1 f6 07 57 8b 6e 1c 9b 14 48 3e 7b f6 6a 87 72  |...W.n...H>{.j.r|
+  e3 23 89 99 f5 77 f7 f8 aa 8f 09 94 4f d4 a8 77  |.#...w......O..w|
+  63 a6 42 7f 5f 05 e3 3d 83 b5 24 9f bd c3 8d 63  |c.B._..=..$....c|
+  33 ba 60 7f 48 61 8f 55 69 56 8b 0c c8 ae 45 66  |3.`.Ha.UiV....Ef|
+  3e 80 85 67 42 06 b3 86 e3 c0 3d 3a 4b 49 59 35  |>..gB.....=:KIY5|
+  3a 5b f5 13 b8 ed b4 3a 38 4f 84 f9 fe 04 1b 94  |:[.....:8O......|
+  f5 e0 7e 0a 0e 73 4e ca 6d f5 b5 b7 be 12 a6 eb  |..~..sN.m.......|
+  1b 75 c4 95 8e 41 32 38 ac 7b 08 12 71 5f 60 bc  |.u...A28.{..q_`.|
+  a1 f6 e4 86 19 14 6e 36 b7 7b 2a 4b 78 b5 51 7f  |......n6.{*Kx.Q.|
+  67 86 fe 16 1d 29 27 67 e6 a8 ef c7 d9 42 15 e3  |g....)'g.....B..|
+  f3 fa 31 06 d0 cf 15 a4 95 54 3a e9 e0 a7 98 fd  |..1......T:.....|
+  21 b0 7d 5d be f1 1b dc ff ba e6 04 fe 15 2a a8  |!.}]..........*.|
+  fb 0b bf 90 98 ad 31 dd f5 ea 08 b1 45 60 eb 4e  |......1.....E`.N|
+  15 92 73 58 29 15 19 ac 9d 06 b8 02 99 83 01 c7  |..sX)...........|
+  21 42 26 53 86 94 60 6b 5b 89 74 89 0f 3b fc b1  |!B&S..`k[.t..;..|
+  ae 7c 80 44 c9 c0 62 be 50 87 0b eb ae 91 8d 6a  |.|.D..b.P......j|
+  e1 06 76 5c 3d f5 3f ad 9a                       |..v\=.?..|
+
+S>C  t=848.797155s  frame 13238  4 bytes
+  80 05 03 00                                      |....|
+
+S>C  t=848.797446s  frame 13240  4 bytes
+  80 05 04 00                                      |....|
+
+C>S  t=849.424264s  frame 13282  55 bytes
+  b3 04 05 00 50 ce c8 a9 dd f9 35 56 71 3e 87 98  |....P.....5Vq>..|
+  21 aa 5c 06 22 e5 80 9b fc 73 cb 93 42 fe 31 d0  |!.\."....s..B.1.|
+  d7 a8 0e 62 a7 7e bc 0b 5c f4 7b 27 26 3f 5b 54  |...b.~..\.{'&?[T|
+  ce b6 77 4d 8f 88 3c                             |..wM..<|
+
+S>C  t=849.524248s  frame 13290  4 bytes
+  80 05 05 00                                      |....|
+
+C>S  t=849.695735s  frame 13302  585 bytes
+  44 84 05 05 00 a8 0d b7 d8 55 9e 77 f8 72 c2 ab  |D........U.w.r..|
+  9c 21 aa 5c 06 32 02 a6 27 40 dd 03 9c 7f 64 5f  |.!.\.2..'@....d_|
+  df 55 23 8b 50 a0 5f 52 02 e7 9e bd 2e ff 40 d4  |.U#.P._R......@.|
+  4e 34 8e f1 38 0a fe 03 a5 17 d4 84 d5 44 95 a1  |N4..8........D..|
+  eb 49 74 3c 6f eb 31 c5 d1 21 2f 38 75 66 a1 1a  |.It<o.1..!/8uf..|
+  bf 2d d0 7f 07 26 51 c0 75 15 3d b6 98 f8 b9 9e  |.-...&Q.u.=.....|
+  ef b7 d6 62 1a 06 59 f5 57 e2 c7 4d 2d 27 a0 70  |...b..Y.W..M-'.p|
+  3e cc 71 dc 1c 52 64 b6 be 4b 2d 07 79 ca 78 bf  |>.q..Rd..K-.y.x.|
+  8b 8a ca f1 12 5b c3 e2 69 d9 94 c2 c3 f3 9c 3a  |.....[..i......:|
+  9c fa 03 9f 62 d8 43 b0 95 3b ff 48 7a f6 2d c6  |....b.C..;.Hz.-.|
+  b2 d6 8a 3e a1 72 40 1e ce f4 75 aa 75 76 c9 e2  |...>.r@...u.uv..|
+  76 95 35 d6 2e 40 1e 12 04 b5 90 99 97 7a 57 2a  |v.5..@.......zW*|
+  dd 4f a8 da 87 4b 99 df b3 16 3c 3d 23 25 09 0e  |.O...K....<=#%..|
+  35 7d 70 c9 e4 45 c7 ac b1 bc 19 ba b0 99 80 b3  |5}p..E..........|
+  70 13 51 f1 9a e6 f3 91 3f 7d 18 06 ff 30 a7 92  |p.Q.....?}...0..|
+  0e e8 49 f2 d6 1f 34 b2 be c2 1b d4 c1 66 39 a1  |..I...4......f9.|
+  d9 cf 9d 6e 63 48 de 8d 55 66 5d d3 00 1b cb e4  |...ncH..Uf].....|
+  c4 9c 7f b1 cc 29 12 1f 24 e8 12 d9 8d 64 59 de  |.....)..$....dY.|
+  de 56 86 bd 2b 8c 8c 3d 1a 2d ee 61 62 69 74 4b  |.V..+..=.-.abitK|
+  40 9a 06 d6 77 e8 85 e0 8b d7 1e 6f 1b a9 4e 48  |@...w......o..NH|
+  eb 28 75 67 20 fd eb d4 1b 22 d3 39 48 db 5e d4  |.(ug ....".9H.^.|
+  24 12 c1 09 6b 25 d5 ae e4 9e 2b 75 80 06 be 24  |$...k%....+u...$|
+  5b f9 6f 9d 2e 53 46 f4 0c 43 b1 ea 51 76 27 b3  |[.o..SF..C..Qv'.|
+  df 95 cb 66 be 8a fc b8 fb d2 ab a4 a3 51 09 bd  |...f.........Q..|
+  95 e5 85 8c 0f 6c b1 fe 4b 9a 74 81 ac be 1f ac  |.....l..K.t.....|
+  f2 8a 45 a8 a0 4a 23 5a 4d f6 02 b0 70 8e ef de  |..E..J#ZM...p...|
+  8a ac bc 26 d9 42 95 b5 9a 2b 5f 1d 24 8b 23 43  |...&.B...+_.$.#C|
+  89 12 6b c5 80 2c ae 6f f1 4a 44 a1 13 43 27 e7  |..k..,.o.JD..C'.|
+  19 4a 2e 62 94 e1 0f 28 68 06 23 a6 3d c3 98 f7  |.J.b...(h.#.=...|
+  ee 47 30 22 ef 03 d8 ff 66 12 10 c4 54 8c 39 63  |.G0"....f...T.9c|
+  4f 1e 71 32 66 49 7c b3 9a b1 20 e2 7f 22 5d ff  |O.q2fI|... .."].|
+  5e 6e 50 94 53 ae 76 86 4e a4 7c 5d a3 da e0 a2  |^nP.S.v.N.|]....|
+  c2 7c 44 9c 93 d2 93 29 ce 31 ce 4f 1d c7 64 72  |.|D....).1.O..dr|
+  33 4e fe 28 13 4f 3c 53 3a 52 2b ec 44 71 1e ea  |3N.(.O<S:R+.Dq..|
+  fe f7 50 60 51 87 73 76 a0 1d 35 ec 3f f0 89 7b  |..P`Q.sv..5.?..{|
+  18 26 7f ae b3 13 1a 63 60 ea 1b 05 0b 25 a7 ef  |.&.....c`....%..|
+  3c e2 83 57 29 ed 45 7c 98                       |<..W).E|.|
+
+S>C  t=849.796241s  frame 13307  4 bytes
+  80 05 06 00                                      |....|
+
+C>S  t=852.775855s  frame 13441  4 bytes
+  80 06 05 00                                      |....|
+
+S>C  t=852.858476s  frame 13446  4 bytes
+  80 05 06 00                                      |....|
+
+S>C  t=855.865578s  frame 13538  4 bytes
+  80 05 06 00                                      |....|
+
+C>S  t=855.889043s  frame 13543  4 bytes
+  80 06 05 00                                      |....|
+
+S>C  t=858.971217s  frame 13637  4 bytes
+  80 05 06 00                                      |....|
+
+C>S  t=858.971384s  frame 13638  4 bytes
+  80 06 05 00                                      |....|
+
+C>S  t=861.981924s  frame 13727  4 bytes
+  80 06 05 00                                      |....|
+
+S>C  t=862.062636s  frame 13732  4 bytes
+  80 05 06 00                                      |....|
+
+C>S  t=865.071333s  frame 13827  4 bytes
+  80 06 05 00                                      |....|
+
+S>C  t=865.077448s  frame 13829  4 bytes
+  80 05 06 00                                      |....|
+
+C>S  t=865.590240s  frame 13852  39 bytes
+  a3 06 05 00 f1 e3 a9 84 3e 5e 05 cc 71 22 33 8f  |........>^..q"3.|
+  22 aa 5c 06 12 7d 35 66 14 8e 5c ee 15 ad 4c 46  |".\..}5f..\...LF|
+  63 73 57 f6 f0 ec d5                             |csW....|
+
+S>C  t=865.767564s  frame 13857  4 bytes
+  80 05 07 00                                      |....|
+
+C>S  t=865.780524s  frame 13860  32 bytes
+  9c 07 05 00 e3 26 9e a9 5b a7 61 16 71 1e 16 92  |.....&..[.a.q...|
+  22 aa 5c 06 0b fc e9 d4 74 30 dd d6 13 fb f4 e4  |".\.....t0......|
+
+C>S  t=865.780546s  frame 13861  8 bytes
+  00 00 00 00 90 00 00 00                          |........|
+

@@ -1,0 +1,16 @@
+class_file,tags
+com/nintendo/npf/sdk/core/c0.java,"jwt/hmac,json"
+com/nintendo/npf/sdk/core/c1.java,http
+com/nintendo/npf/sdk/core/d.java,"api-path,json"
+com/nintendo/npf/sdk/core/j2.java,api-path
+com/nintendo/npf/sdk/core/m0.java,api-path
+com/nintendo/npf/sdk/core/o2.java,"jwt/hmac,json"
+com/nintendo/npf/sdk/core/u0.java,"api-path,json"
+com/nintendo/npf/sdk/core/u3.java,"api-path,json"
+com/nintendo/npf/sdk/core/v4.java,jwt/hmac
+com/nintendo/npf/sdk/core/x1.java,"auth-header,user-agent"
+com/nintendo/npf/sdk/core/z.java,api-path
+com/nintendo/npf/sdk/infrastructure/api/PromoCodeApi.java,"api-path,json"
+com/nintendo/npf/sdk/infrastructure/api/SubscriptionApi.java,"api-path,json"
+com/nintendo/npf/sdk/infrastructure/api/VirtualCurrencyApi.java,"api-path,json"
+com/nintendo/npf/sdk/internal/app/NaAuthenticationActivity.java,api-path

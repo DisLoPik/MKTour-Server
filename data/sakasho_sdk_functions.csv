@@ -1,0 +1,118 @@
+export,area,matched_paths_heuristic
+SksAchievementGetAchievements,Achievement,/v1/players/@me/achievements | /v1/players/@me/achievements/create_multi | /v1/players/@me/achievements/list
+SksAchievementUnlockAchievement,Achievement,/v1/players/@me/achievements | /v1/players/@me/achievements/create_multi | /v1/players/@me/achievements/list
+SksAchievementUnlockAchievements,Achievement,/v1/players/@me/achievements | /v1/players/@me/achievements/create_multi | /v1/players/@me/achievements/list
+SksAnnouncementGetAnnouncements,Announcement,/v1/players/@me/announcements
+SksAnnouncementGetPrivateAnnouncements,Announcement,/v1/players/@me/announcements | /v1/players/@me/private_announcements
+SksAnnouncementReadAnnouncements,Announcement,/v1/players/@me/announcements
+SksAssetGetBaseURL,Asset,/v1/assets/base_url
+SksBlockListAddPlayers,Block,/v1/players/@me/block_lists | /v1/players/@me/block_lists/add
+SksBlockListGetPlayers,Block,/v1/players/@me/block_lists
+SksBlockListRemovePlayers,Block,/v1/players/@me/block_lists | /v1/players/@me/block_lists/remove
+SksDebugPlayerDestroyDebugPlayer,Debug,/v3/debug_player/destroy_debug_player
+SksDebugPlayerSetDebugTime,Debug,/v3/debug_player/set_debug_time
+SksDebugPlayerShowDebugPlayer,Debug,/v3/debug_player/show_debug_player
+SksEventRaceCollectRewardCoin,Event,
+SksEventRaceGetTermSituations,Event,/v1/booster/players/@me/event_race/terms
+SksEventRaceListTermStatistics,Event,/v1/booster/players/@me/event_race/terms | /v3/booster/event_race/list_term_statistics
+SksEventRacePurchaseRewardProduct,Event,/v2/players/@me/products/list | /v2/players/@me/products/purchase
+SksFacebookAccountGetStatus,Facebook,/v1/players/@me/facebook
+SksFacebookAccountLinkWithPlayer,Facebook,/v1/players/@me/facebook
+SksFacebookAccountUnlink,Facebook,/v1/players/@me/facebook
+SksFriendCandidateGetFriendCandidates,Friend,/v1/na/friend_candidates | /v1/players/@me/friend_candidates | /v1/players/@me/friends
+SksFriendCandidateGetRandomFriendCandidates,Friend,/v1/na/friend_candidates | /v1/players/@me/friend_candidates | /v1/players/@me/friend_candidates/random | /v1/players/@me/friends
+SksFriendDeleteFriend,Friend,/v1/players/@me/friends
+SksFriendDeleteFriendRequest,Friend,/v1/friend_requests | /v1/players/@me/friends
+SksFriendGetFriends,Friend,/v1/players/@me/friends
+SksFriendGetReceivedFriendRequests,Friend,/v1/friend_requests | /v1/players/@me/friends
+SksFriendGetRelationships,Friend,/v1/players/@me/friend_relationships | /v1/players/@me/friends
+SksFriendGetSentFriendRequests,Friend,/v1/friend_requests | /v1/players/@me/friends
+SksFriendHistoryCreateHistory,Friend,/v1/friend_history | /v1/players/@me/friends
+SksFriendRefuseFriendRequest,Friend,/v1/friend_requests | /v1/players/@me/friends
+SksFriendSendFriendRequest,Friend,/v1/friend_requests | /v1/players/@me/friends
+SksGiftablePlayerResourceDeleteGiftsAndSaveStorages,Giftable,/v1/players/@me/storages | /v1/players/_/storages/list | /v3/booster/giftable_player_resource/delete_gifts_and_save_storages | /v3/booster/giftable_player_resource/gift_and_save_storages
+SksGiftablePlayerResourceGiftAndSaveStorages,Giftable,/v1/players/@me/storages | /v1/players/_/storages/list | /v3/booster/giftable_player_resource/gift_and_save_storages
+SksGiftablePlayerResourceListGifts,Giftable,/v3/booster/giftable_player_resource/list_gifts
+SksIntentionalPushNotificationSendPushNotifications,Intentional,/v3/booster/intentional_push_notification/send_push_notifications
+SksInternalRequestFree,Internal,
+SksInternalRequestSend,Internal,
+SksInternalSessionClearSession,Internal,/v1/players/@me/session
+SksInternalSessionCreatePlayerSession,Internal,/v1/players/@me/session
+SksInventoryDeleteInventoriesAndSetPlayerStorages,Inventory,/v1/players/@me/storages | /v1/players/@me/storages_and_inventories | /v1/players/_/storages/list
+SksInventoryDeleteInventoriesAndUpdateVirtualCurrencies,Inventory,/v1/players/@me/virtual_currencies_and_inventories
+SksInventoryGetInventories,Inventory,/v3/inventory/get_inventories
+SksInventoryReceiveServerControlledResources,Inventory,/v3/inventory/receive_server_controlled_resources
+SksIrisGetAccessToken,Iris,/v1/players/@me/iris/access_token
+SksIzumoCreateClientKey,Izumo,/v3/booster/izumo/create_client_key
+SksLimitedNintendoAccountFetchNintendoAccount,Limited,/v3/limited_nintendo_account/fetch_nintendo_account
+SksLimitedSubscriptionGetEntitlements,Limited,/v3/limited_subscription/get_entitlements
+SksLimitedSubscriptionGetGlobalPurchases,Limited,/v3/limited_subscription/get_global_purchases | /v3/limited_subscription/get_purchases_with_account_hold
+SksLimitedSubscriptionGetPurchases,Limited,/v3/limited_subscription/get_purchases_with_account_hold
+SksLoginBonusCountUpLoginBonuses,Login,/v2/players/@me/login_bonuses
+SksLoginBonusGetLoginBonusesAll,Login,/v2/players/@me/login_bonuses
+SksMasterGetMasters,Master,/v1/masters
+SksMiiCreateMiis,Mii,/v3/booster/mii/create_miis
+SksMiiDeleteMiis,Mii,/v3/booster/mii/delete_miis
+SksMiiListOwnMiis,Mii,/v3/booster/mii/list_own_miis
+SksMiiSearchMiis,Mii,/v3/booster/mii/search_miis
+SksMk8dxFetchPlayReport,Mk8dx,/v3/booster/mk8dx/fetch_play_report
+SksNintendoAccountGetFriendCandidates,Nintendo,/v1/na/friend_candidates | /v1/players/@me/friend_candidates | /v1/players/@me/friends
+SksNintendoAccountSetMissionSteps,Nintendo,/v1/na/players/@me/mission_progress
+SksPaymentGetReceivedExtraBonusAmounts,Payment,/v1/payment/received_extra_bonus_amounts | /v2/payment/received_extra_bonuses/list
+SksPaymentGetReceivedExtraBonuses,Payment,/v2/payment/received_extra_bonuses/list
+SksPaymentRecover,Payment,
+SksPlayerCreateSearchToken,Player,/v1/players/@me/search_tokens | /v1/players/search_tokens
+SksPlayerGetPlayerBySearchToken,Player,/v1/players/@me/search_tokens | /v1/players/search_tokens
+SksPlayerGetSearchToken,Player,/v1/players/@me/search_tokens | /v1/players/search_tokens
+SksPlayerGetSessionToken,Player,/v1/players/@me/session
+SksProductGetProducts,Product,/v2/players/@me/products/list
+SksProductGetProductsAll,Product,/v2/players/@me/products/list
+SksProductPurchase,Product,/v2/players/@me/products/list | /v2/players/@me/products/purchase
+SksRaceGhostCreateGhosts,Race,
+SksRaceGhostDeleteGhosts,Race,
+SksRaceGhostDownloadGhosts,Race,
+SksRaceGhostSearchGhosts,Race,
+SksRankRaceJoin,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/join
+SksRankRaceJoinAndUpdateScores,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/join | /v3/booster/rank_race/join_and_update_scores | /v3/booster/rank_race/update_score
+SksRankRaceListPlayerSituations,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/list_player_situations
+SksRankRaceListRivals,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/list_rivals
+SksRankRaceSaveTermResult,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/save_term_result
+SksRankRaceShowLastJoinedTermSituation,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/join | /v3/booster/rank_race/show_last_joined_term_situation | /v3/booster/rank_race/show_term_situation
+SksRankRaceShowTermSituation,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/show_term_situation
+SksRankRaceUpdateScore,Rank,/v1/booster/players/@me/rank_race/ghosts | /v1/booster/players/@me/rank_race/ghosts/download | /v1/booster/players/@me/rank_race/ghosts/prototype_destroy | /v1/booster/players/@me/rank_race/ghosts/prototype_search | /v3/booster/rank_race/update_score
+SksRarityBoxLotteryDrawLotteryByPlayerStorage,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries | /v1/players/@me/storages | /v1/players/_/storages/list
+SksRarityBoxLotteryDrawLotteryByTicket,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries
+SksRarityBoxLotteryDrawLotteryByVirtualCurrency,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries | /v1/players/@me/virtual_currencies/recover
+SksRarityBoxLotteryGetLotteries,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries
+SksRarityBoxLotteryGetLotteryPackages,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries
+SksRarityBoxLotteryGetLotteryTickets,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries
+SksRarityBoxLotteryResetLotteryItems,Rarity,/v1/booster/players/@me/rarity_box_lottery/lotteries
+SksSeasonSummaryListSummaryPreparedSeasons,Season,/v3/booster/season_summary/list_summary_prepared_seasons
+SksSecureRandomGenerateRandomBytes,Secure,/v1/secure_random
+SksServerControlledConstantGetAllConstants,Server,/v3/server_controlled_constant/get_all_constants
+SksSharedResourceCreateResource,Shared,/v1/shared_resources
+SksSharedResourceGetMessages,Shared,/v1/shared_resource_messages | /v1/shared_resources
+SksSharedResourceGetResources,Shared,/v1/shared_resources
+SksSharedResourceSearchResources,Shared,/v1/shared_resources
+SksSharedResourceSendMessageAndSetPlayerStorages,Shared,/v1/players/@me/storages | /v1/players/_/storages/list | /v1/shared_resource_messages | /v1/shared_resources
+SksStorageGetPlayerStorages,Storage,/v1/players/@me/storages | /v1/players/_/storages/list
+SksStorageSetPlayerStorages,Storage,/v1/players/@me/storages | /v1/players/_/storages/list
+SksSubscriptionContinuationUpdateContinuation,Subscription,/v3/subscription_continuation/update_continuation
+SksSuspiciousActivityReportSuspiciousPlayer,Suspicious,/v1/suspicious_activity
+SksSystemDeactivatePlayer,System,/v1/players/@me/deactivate
+SksSystemFinalizeSystem,System,
+SksSystemGetCommunicationStatistics,System,
+SksSystemGetSdkVersion,System,/v1/version
+SksSystemGetServerVersion,System,/v1/version
+SksSystemGetTimeLag,System,
+SksSystemInitializeSystem,System,
+SksSystemSetHttpProxy,System,
+SksSystemSetTimeGetter,System,
+SksSystemSetTimeout,System,
+SksSystemSetVerbose,System,
+SksTwitterAccountGetStatus,Twitter,/v1/players/@me/twitter
+SksTwitterAccountLinkWithPlayer,Twitter,/v1/players/@me/twitter
+SksTwitterAccountUnlink,Twitter,/v1/players/@me/twitter
+SksV2SecurityGenerateNonce,V2,/v3/security_nonce/generate_nonce
+SksV2SecurityVerifyPlayIntegrityJWT,V2,
+SksVirtualCurrencyConsumeAndSetPlayerStorages,Virtual,/v1/players/@me/storages | /v1/players/@me/virtual_currencies/consume_and_set_player_storages | /v1/players/@me/virtual_currencies/recover | /v1/players/_/storages/list

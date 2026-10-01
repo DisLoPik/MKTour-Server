@@ -1,0 +1,44 @@
+# Mario Kart Tour preservation research - files that must NOT be published.
+# Everything ignored here can be regenerated locally with scripts/01-10 from your own APKs/capture.
+
+# ---- Original inputs: Nintendo APKs and the raw packet capture (contains IP addresses) ----
+originals/
+*.apk
+*.apks
+*.xapk
+*.pcap
+*.pcapng
+*.cap
+
+# ---- Unzipped APKs, apktool/jadx output and intermediate files (Nintendo code and assets) ----
+work/
+
+# ---- Assets exported from data.unity3d (Nintendo game data) ----
+unity_export/
+
+# ---- Bulk strings dumps of Nintendo binaries (regenerate with scripts/02_strings.py) ----
+strings/*.strings.txt
+
+# ---- Binaries / game data, in case copies end up anywhere else in the tree ----
+*.so
+*.dex
+*.unity3d
+*.zst
+global-metadata.dat
+
+# ---- Local tools (Python venv, jadx, apktool, Il2CppDumper); keep only the pip freeze ----
+tools/*
+!tools/python_requirements_freeze.txt
+
+# ---- Python / OS / editor noise ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
