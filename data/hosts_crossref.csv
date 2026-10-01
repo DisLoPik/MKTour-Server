@@ -1,0 +1,39 @@
+hostname,status,role,ips,ports,flows,bytes,apk_evidence
+support-cdn-mariokarttour.akamaized.net,capture only,Support / help pages CDN (Akamai),[IP REDACTED],TCP/443,2,2219806,registrable domain 'akamaized.net' NOT present in APK plaintext
+api.mariokarttour.com,capture only,"Sakasho/Booster game API (protobuf over HTTPS, libs2pcore OpenSSL client)",[IP REDACTED],TCP/443,115,1159616,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+ec2-[IP REDACTED].us-west-2.compute.amazonaws.com,capture only,"Izumo room / relay server (TCP+UDP 14106), address handed out by pvp",[IP REDACTED],TCP/14106;UDP/14106,2,308156,registrable domain 'amazonaws.com' NOT present in APK plaintext
+pubsub.googleapis.com,both (exact),Google Cloud Pub/Sub (NPF analytics upload?),[IP REDACTED],TCP/443,6,298730,classes.dex
+public-content-cdn-mariokarttour.akamaized.net,capture only,Game content CDN (Akamai),[IP REDACTED],TCP/443,21,207203,registrable domain 'akamaized.net' NOT present in APK plaintext
+announcement-resource-cdn.mariokarttour.com,capture only,News / announcement resources (Akamai),[IP REDACTED],TCP/443,2,118687,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+c-lp1.accounts.nintendo.com,capture only,Nintendo Account web content (in-app browser / auth UI),[IP REDACTED],TCP/443,10,105306,registrable domain 'nintendo.com' IS present in APK plaintext
+a6913b7b80402974409b47079c29d775.baas.nintendo.com,both (exact),"Nintendo BaaS (NPF SDK login, users, analytics config)",[IP REDACTED],TCP/443,8,67287,assets/npf.json
+support.mariokarttour.com,capture only,Support site (AWS ALB),[IP REDACTED],TCP/443,1,55070,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+api.accounts.nintendo.com,both (exact),Nintendo Account API (session_token / token exchange),[IP REDACTED],TCP/443,2,21279,classes.dex;jadx:com.nintendo
+pvp.mariokarttour.com,capture only,PvP / Izumo matchmaking gateway (custom binary TCP 11401; redirects to room server),[IP REDACTED],TCP/11401,1,15061,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+firebaselogging.googleapis.com,capture only,Firebase / Google data-transport logging,[IP REDACTED],TCP/443,1,8095,registrable domain 'googleapis.com' IS present in APK plaintext
+sessions.bugsnag.com,both (exact),Bugsnag session tracking,[IP REDACTED],TCP/443,1,7028,classes.dex
+download-cdn-mariokarttour.akamaized.net,capture only,Asset download CDN (Akamai),[IP REDACTED],TCP/443,1,5218,registrable domain 'akamaized.net' NOT present in APK plaintext
+g2122d301.lp1.p.srv.nintendo.net,both (APK format-string template),"NPLN / Pia monitoring (UDP 34343, one-way)",[IP REDACTED],UDP/34343,1,1216,%s.lp1.p.srv.nintendo.net (libil2cpp.so)
+nat-check-0.mariokarttour.com,capture only,Pia NAT-type check (UDP 33334/34543),[IP REDACTED],UDP/33334;UDP/34543,4,780,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+nat-check-1.mariokarttour.com,capture only,Pia NAT-type check (UDP 34543),[IP REDACTED],UDP/34543,2,408,registrable domain 'mariokarttour.com' NOT present in APK plaintext
+166790037073-jsusu2jk8fv5ucndjprvnq9eumb2p02n.apps.googleusercontent.com,APK only,,,,0,0,res/values
+accounts.nintendo.com,APK only,,,,0,0,classes.dex;jadx:com.nintendo
+app-measurement.com,APK only,,,,0,0,classes.dex
+bugsnag.com,APK only,,,,0,0,classes.dex
+firebaseinstallations.googleapis.com,APK only,,,,0,0,classes.dex
+firestore.googleapis.com,APK only,,,,0,0,libFirebaseCppApp-12_10_0.so
+google-analytics.com,APK only,,,,0,0,classes.dex
+google.com,APK only,,,,0,0,classes.dex
+notify.bugsnag.com,APK only,,,,0,0,classes.dex
+npf-booster-a6913b7.appspot.com,APK only,,,,0,0,res/values;resources.arsc
+npf-booster-a6913b7.firebaseio.com,APK only,,,,0,0,res/values;resources.arsc
+oauth2.googleapis.com,APK only,,,,0,0,classes.dex
+pagead2.googlesyndication.com,APK only,,,,0,0,classes.dex
+play.google.com,APK only,,,,0,0,classes.dex;jadx:com.nintendo
+playgames.google.com,APK only,,,,0,0,libFirebaseCppApp-12_10_0.so
+pubsub.mtls.googleapis.com,APK only,,,,0,0,classes.dex
+www.google.com,APK only,,,,0,0,classes.dex
+www.googleadservices.com,APK only,,,,0,0,classes.dex
+www.googleapis.com,APK only,,,,0,0,classes.dex
+%s.lp1.p.srv.nintendo.net,APK template (instantiated in capture),NPLN host template,,,0,0,%s.lp1.p.srv.nintendo.net (libil2cpp.so)
+%s.dd1.p.srv.nintendo.net,"APK only (template, dev environment)",NPLN host template,,,0,0,%s.dd1.p.srv.nintendo.net (libil2cpp.so)

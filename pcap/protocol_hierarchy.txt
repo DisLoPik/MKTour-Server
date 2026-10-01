@@ -1,0 +1,16 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+frame                                    frames:15431 bytes:5567504
+  raw                                    frames:15431 bytes:5567504
+    ip                                   frames:15431 bytes:5567504
+      udp                                frames:10278 bytes:1268657
+        dns                              frames:114 bytes:14072
+        data                             frames:10164 bytes:1254585
+      tcp                                frames:5153 bytes:4298847
+        tls                              frames:1962 bytes:3319885
+          tls                            frames:282 bytes:1568580
+        data                             frames:224 bytes:17106
+===================================================================

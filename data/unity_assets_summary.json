@@ -1,0 +1,226 @@
+{
+  "data.unity3d": {
+    "unity_versions": [
+      "2022.3.69f1"
+    ],
+    "object_count": 5154,
+    "types": {
+      "MonoScript": {
+        "count": 3901,
+        "bytes": 398884
+      },
+      "TextAsset": {
+        "count": 589,
+        "bytes": 2118756
+      },
+      "Texture2D": {
+        "count": 213,
+        "bytes": 31760
+      },
+      "MonoBehaviour": {
+        "count": 159,
+        "bytes": 28112
+      },
+      "GameObject": {
+        "count": 63,
+        "bytes": 4797
+      },
+      "Shader": {
+        "count": 61,
+        "bytes": 769428
+      },
+      "RectTransform": {
+        "count": 52,
+        "bytes": 6168
+      },
+      "CanvasRenderer": {
+        "count": 36,
+        "bytes": 468
+      },
+      "Material": {
+        "count": 12,
+        "bytes": 7512
+      },
+      "Transform": {
+        "count": 11,
+        "bytes": 820
+      },
+      "Canvas": {
+        "count": 7,
+        "bytes": 441
+      },
+      "Font": {
+        "count": 4,
+        "bytes": 4557196
+      },
+      "Sprite": {
+        "count": 4,
+        "bytes": 2948
+      },
+      "PreloadData": {
+        "count": 3,
+        "bytes": 1503
+      },
+      "Camera": {
+        "count": 3,
+        "bytes": 552
+      },
+      "AnimationClip": {
+        "count": 2,
+        "bytes": 5060
+      },
+      "AnimatorController": {
+        "count": 2,
+        "bytes": 880
+      },
+      "Animator": {
+        "count": 2,
+        "bytes": 112
+      },
+      "RenderSettings": {
+        "count": 2,
+        "bytes": 666
+      },
+      "LightmapSettings": {
+        "count": 2,
+        "bytes": 144
+      },
+      "NavMeshSettings": {
+        "count": 2,
+        "bytes": 24
+      },
+      "LightingSettings": {
+        "count": 2,
+        "bytes": 96
+      },
+      "PlayerSettings": {
+        "count": 1,
+        "bytes": 860
+      },
+      "InputManager": {
+        "count": 1,
+        "bytes": 1424
+      },
+      "TagManager": {
+        "count": 1,
+        "bytes": 420
+      },
+      "AudioManager": {
+        "count": 1,
+        "bytes": 48
+      },
+      "ScriptMapper": {
+        "count": 1,
+        "bytes": 10421
+      },
+      "MonoManager": {
+        "count": 1,
+        "bytes": 174452
+      },
+      "GraphicsSettings": {
+        "count": 1,
+        "bytes": 934
+      },
+      "TimeManager": {
+        "count": 1,
+        "bytes": 16
+      },
+      "DelayedCallManager": {
+        "count": 1,
+        "bytes": 0
+      },
+      "PhysicsManager": {
+        "count": 1,
+        "bytes": 272
+      },
+      "BuildSettings": {
+        "count": 1,
+        "bytes": 184
+      },
+      "QualitySettings": {
+        "count": 1,
+        "bytes": 616
+      },
+      "ResourceManager": {
+        "count": 1,
+        "bytes": 41304
+      },
+      "NavMeshProjectSettings": {
+        "count": 1,
+        "bytes": 372
+      },
+      "Physics2DSettings": {
+        "count": 1,
+        "bytes": 280
+      },
+      "RuntimeInitializeOnLoadManager": {
+        "count": 1,
+        "bytes": 0
+      },
+      "StreamingManager": {
+        "count": 1,
+        "bytes": 0
+      },
+      "VFXManager": {
+        "count": 1,
+        "bytes": 100
+      },
+      "LightProbes": {
+        "count": 1,
+        "bytes": 44
+      },
+      "SpriteAtlas": {
+        "count": 1,
+        "bytes": 220
+      },
+      "FlareLayer": {
+        "count": 1,
+        "bytes": 16
+      },
+      "CanvasGroup": {
+        "count": 1,
+        "bytes": 24
+      }
+    }
+  },
+  "unity default resources": {
+    "unity_versions": [
+      "2022.3.64f1"
+    ],
+    "object_count": 85,
+    "types": {
+      "Texture2D": {
+        "count": 40,
+        "bytes": 222920
+      },
+      "MonoScript": {
+        "count": 16,
+        "bytes": 1576
+      },
+      "Mesh": {
+        "count": 13,
+        "bytes": 153412
+      },
+      "Shader": {
+        "count": 6,
+        "bytes": 89808
+      },
+      "ComputeShader": {
+        "count": 6,
+        "bytes": 591080
+      },
+      "Material": {
+        "count": 2,
+        "bytes": 284
+      },
+      "Font": {
+        "count": 1,
+        "bytes": 51102
+      },
+      "MonoBehaviour": {
+        "count": 1,
+        "bytes": 8488
+      }
+    }
+  }
+}

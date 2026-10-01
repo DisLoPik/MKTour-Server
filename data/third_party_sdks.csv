@@ -1,0 +1,35 @@
+sdk,category,version,evidence
+"Unity (IL2CPP, arm64-v8a)",engine,2022.3.69f1 (621633b9d04b),libunity.so strings; data.unity3d serialized version; boot.config build-guid
+Nintendo NPF SDK (Nintendo Platform Framework),Nintendo account / BaaS / IAP,unknown (runtime value),"com.nintendo.npf.* (jadx), NPFSDK.dll, assets/npf.json"
+Sakasho SDK ('s2p' core) + Booster extensions,game backend client (DeNA Sakasho),native core build id d695073f (string near API table),"libs2pcore.so (117 Sks* exports), sakasho2p.dll, assets/SakashoServerConfig"
+Nintendo Pia (PiaUnity),P2P multiplayer / NAT traversal / relay,PIA_7_2_1,"libil2cpp.so strings (statically linked), com.nintendo.piaunity.dll, nn.pia.* MonoScripts"
+Nabe (Nintendo asset packing),asset container (zstd + dictionary),,"libnabe-android.so, jp.co.nintendo.nabe.AndroidUtil, Nabe.dll, assets/_nabe_/"
+zstd-jni (com.github.luben.zstd),compression,,"libzstd-jni.so, jadx com/github/luben"
+Audiokinetic Wwise,audio,2023.1.14.8770 (generator),"libAkSoundEngine.so, assets/Audio/GeneratedSoundBanks/ProjectInfo.xml (project 'Booster')"
+OpenSSL,TLS (used by Sakasho core),3.3.1 (4 Jun 2024),libs2pcore.so strings
+POCO C++ Libraries (Net/NetSSL/JSON/XML),HTTP client for Sakasho core,1.12.5p2,libs2pcore.so strings
+Google protobuf (C++ lite) + abseil lts_20240116,serialization (native),,libs2pcore.so /tmp/work/protobuf/... paths
+protobuf-net,serialization (managed),,ScriptingAssemblies.json
+MessagePack-CSharp,serialization (managed),,ScriptingAssemblies.json (MessagePackCSharp.dll)
+Newtonsoft.Json,serialization (managed),,ScriptingAssemblies.json
+MoonSharp,Lua interpreter (managed),,ScriptingAssemblies.json (MoonSharp.Interpreter.dll)
+Nintendo MessageStudio (LMS),localisation text,,Nintendo.MessageStudio.Lib MonoScripts
+Sead / Uge (Nintendo in-house),game framework,,"MonoScript namespaces Sead, Uge"
+libcurl (inside libunity),Unity networking,8.10.1,libunity.so strings
+Firebase Analytics,analytics,22.4.0,firebase-analytics.properties; Firebase.Analytics.dll
+Firebase Cloud Messaging (+ C++ SDK),push notifications,C++ 12.10.0,"libFirebaseCppApp-12_10_0.so, libFirebaseCppMessaging.so, Firebase.Messaging.dll"
+Firebase IID / Installations / encoders / datatransport,Firebase infra,iid 21.1.0,*.properties
+Google Play Services (base/basement/tasks/location/nearby/drive/appset/ads-identifier/stats/measurement),Google Play services,base 18.6.0; measurement 22.4.0; location 19.0.0; nearby 18.0.2,*.properties
+Google Play Games Services v2 + Unity plugin,achievements/sign-in,17.0.0; Unity plugin 0.11.01; APP_ID 482624233067,play-services-games-v2.properties; manifest meta-data
+Google Play Billing,in-app purchases,7.1.1,billing.properties; manifest meta-data
+Google Play Integrity,device attestation,1.3.0 (java) / 1.3.2 (unity),integrity.properties; META-INF version; SksV2SecurityVerifyPlayIntegrityJWT
+Google Play Core / Common,Play core,1.8.1,META-INF/com.google.play.core.version
+Google Cloud Pub/Sub client (pubsub.v1.json),analytics transport,,pubsub.v1.json in APK root; pubsub.googleapis.com in capture
+Bugsnag (Android 6.12.1 + NDK + ANR plugin + Unity),crash reporting,Android notifier 6.12.1,com/bugsnag/android/Notifier.java; libbugsnag-*.so; BugsnagUnity.dll
+Unity Mobile Notifications,local notifications,,Unity.Notifications.Android.dll; com.unity.androidnotifications
+Booster local push (jp.co.nintendo.booster.android.localpush),local notifications,,manifest receiver
+NativeGallery (yasirkula),save screenshots,,NativeGallery.Runtime.dll; com.yasirkula
+Sns.Twitter,social share,,Sns.Twitter.dll
+AndroidX / Kotlin coroutines,Android support,appcompat 1.6.1; core 1.9.0; coroutines 1.7.3,META-INF/*.version
+Android Privacy Sandbox ads-adservices,ads attribution API,1.1.0-beta11,META-INF version; uses-library android.ext.adservices
+Google Ads conversion / AdServices (via measurement),ad attribution (no ad SDK UI),,classes.dex googleadservices.com; google_analytics_adid_collection_enabled=false

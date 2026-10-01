@@ -1,0 +1,35 @@
+================================================================================
+IPv4 Conversations
+Filter:<No Filter>
+                                               |       <-      | |       ->      | |     Total     |    Relative    |   Duration   |
+                                               | Frames  Bytes | | Frames  Bytes | | Frames  Bytes |      Start     |              |
+[IP REDACTED]         <-> [IP REDACTED]            1495 686 kB       1390 472 kB       2885 1159 kB       7.346558000      1023.3846
+[IP REDACTED]         <-> [IP REDACTED]           1156 174 kB        861 133 kB       2017 308 kB      752.879086000       112.9031
+[IP REDACTED]         <-> [IP REDACTED]             860 132 kB        859 90 kB        1719 223 kB      754.693506000       110.8719
+[IP REDACTED]         <-> [IP REDACTED]           1020 109 kB        688 73 kB        1708 182 kB      754.107786000        89.4010
+[IP REDACTED]         <-> [IP REDACTED]           991 149 kB        704 74 kB        1695 224 kB      754.115897000        90.2683
+[IP REDACTED]         <-> [IP REDACTED]              777 79 kB         802 82 kB        1579 161 kB      757.061301000       108.5653
+[IP REDACTED]         <-> [IP REDACTED]            938 94 kB         626 62 kB        1564 157 kB      760.180915000        83.4035
+[IP REDACTED]         <-> [IP REDACTED]             266 2208 kB       151 11 kB         417 2219 kB     888.968614000        84.4958
+[IP REDACTED]         <-> [IP REDACTED]             131 116 kB        145 18 kB         276 135 kB       60.655294000       418.2694
+[IP REDACTED]         <-> [IP REDACTED]            126 8154 bytes     122 6907 bytes     248 15 kB       736.212038000       143.9729
+[IP REDACTED]         <-> [IP REDACTED]           106 94 kB          96 11 kB         202 105 kB      931.694507000        61.8586
+[IP REDACTED]         <-> [IP REDACTED]            87 24 kB          87 92 kB         174 116 kB      666.159703000       347.8063
+[IP REDACTED]         <-> [IP REDACTED]            76 37 kB          76 29 kB         152 67 kB         6.365477000      1039.8325
+[IP REDACTED]         <-> [IP REDACTED]             75 15 kB          75 84 kB         150 100 kB      363.473766000       291.5652
+[IP REDACTED]         <-> [IP REDACTED]              66 62 kB          72 9411 bytes     138 71 kB       260.884711000        61.9965
+[IP REDACTED]         <-> [IP REDACTED]            63 17 kB          62 63 kB         125 81 kB         9.632020000       313.2485
+[IP REDACTED]         <-> [IP REDACTED]              57 9672 bytes      57 4400 bytes     114 14 kB         0.000000000      1042.4685
+[IP REDACTED]         <-> [IP REDACTED]             20 17 kB          21 3536 bytes      41 21 kB         6.674317000       902.8128
+[IP REDACTED]         <-> [IP REDACTED]            19 47 kB          20 7454 bytes      39 55 kB       888.461360000        81.2321
+[IP REDACTED]         <-> [IP REDACTED]              19 56 kB          14 1988 bytes      33 58 kB       888.984297000        19.2026
+[IP REDACTED]         <-> [IP REDACTED]              18 58 kB          12 2022 bytes      30 60 kB       909.356906000        64.1078
+[IP REDACTED]         <-> [IP REDACTED]              2 306 bytes      24 4456 bytes      26 4762 bytes   754.122364000         3.4792
+[IP REDACTED]         <-> [IP REDACTED]             11 3844 bytes      13 1374 bytes      24 5218 bytes     8.198327000        53.0486
+[IP REDACTED]         <-> [IP REDACTED]             6 222 bytes      18 558 bytes      24 780 bytes   733.360725000       215.1418
+[IP REDACTED]         <-> [IP REDACTED]                9 4768 bytes       9 2260 bytes      18 7028 bytes     5.181860000        60.6322
+[IP REDACTED]         <-> [IP REDACTED]              8 6105 bytes       8 1990 bytes      16 8095 bytes   547.411600000        62.4588
+[IP REDACTED]         <-> [IP REDACTED]               6 222 bytes       6 186 bytes      12 408 bytes   733.370749000       215.1323
+[IP REDACTED]         <-> [IP REDACTED]            1 121 bytes       2 242 bytes       3 363 bytes   754.168983000         0.3135
+[IP REDACTED]         <-> [IP REDACTED]            0 0 bytes         2 1216 bytes       2 1216 bytes   756.341121000       109.5177
+================================================================================

@@ -1,0 +1,386 @@
+{
+  "capture_hosts": [
+    {
+      "hostname": "support-cdn-mariokarttour.akamaized.net",
+      "status": "capture only",
+      "role": "Support / help pages CDN (Akamai)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "2",
+      "bytes": "2219806",
+      "apk_evidence": "registrable domain 'akamaized.net' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "api.mariokarttour.com",
+      "status": "capture only",
+      "role": "Sakasho/Booster game API (protobuf over HTTPS, libs2pcore OpenSSL client)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "115",
+      "bytes": "1159616",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "ec2-[IP REDACTED].us-west-2.compute.amazonaws.com",
+      "status": "capture only",
+      "role": "Izumo room / relay server (TCP+UDP 14106), address handed out by pvp",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/14106;UDP/14106",
+      "flows": "2",
+      "bytes": "308156",
+      "apk_evidence": "registrable domain 'amazonaws.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "pubsub.googleapis.com",
+      "status": "both (exact)",
+      "role": "Google Cloud Pub/Sub (NPF analytics upload?)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "6",
+      "bytes": "298730",
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "public-content-cdn-mariokarttour.akamaized.net",
+      "status": "capture only",
+      "role": "Game content CDN (Akamai)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "21",
+      "bytes": "207203",
+      "apk_evidence": "registrable domain 'akamaized.net' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "announcement-resource-cdn.mariokarttour.com",
+      "status": "capture only",
+      "role": "News / announcement resources (Akamai)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "2",
+      "bytes": "118687",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "c-lp1.accounts.nintendo.com",
+      "status": "capture only",
+      "role": "Nintendo Account web content (in-app browser / auth UI)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "10",
+      "bytes": "105306",
+      "apk_evidence": "registrable domain 'nintendo.com' IS present in APK plaintext"
+    },
+    {
+      "hostname": "a6913b7b80402974409b47079c29d775.baas.nintendo.com",
+      "status": "both (exact)",
+      "role": "Nintendo BaaS (NPF SDK login, users, analytics config)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "8",
+      "bytes": "67287",
+      "apk_evidence": "assets/npf.json"
+    },
+    {
+      "hostname": "support.mariokarttour.com",
+      "status": "capture only",
+      "role": "Support site (AWS ALB)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "1",
+      "bytes": "55070",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "api.accounts.nintendo.com",
+      "status": "both (exact)",
+      "role": "Nintendo Account API (session_token / token exchange)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "2",
+      "bytes": "21279",
+      "apk_evidence": "classes.dex;jadx:com.nintendo"
+    },
+    {
+      "hostname": "pvp.mariokarttour.com",
+      "status": "capture only",
+      "role": "PvP / Izumo matchmaking gateway (custom binary TCP 11401; redirects to room server)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/11401",
+      "flows": "1",
+      "bytes": "15061",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "firebaselogging.googleapis.com",
+      "status": "capture only",
+      "role": "Firebase / Google data-transport logging",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "1",
+      "bytes": "8095",
+      "apk_evidence": "registrable domain 'googleapis.com' IS present in APK plaintext"
+    },
+    {
+      "hostname": "sessions.bugsnag.com",
+      "status": "both (exact)",
+      "role": "Bugsnag session tracking",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "1",
+      "bytes": "7028",
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "download-cdn-mariokarttour.akamaized.net",
+      "status": "capture only",
+      "role": "Asset download CDN (Akamai)",
+      "ips": "[IP REDACTED]",
+      "ports": "TCP/443",
+      "flows": "1",
+      "bytes": "5218",
+      "apk_evidence": "registrable domain 'akamaized.net' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "g2122d301.lp1.p.srv.nintendo.net",
+      "status": "both (APK format-string template)",
+      "role": "NPLN / Pia monitoring (UDP 34343, one-way)",
+      "ips": "[IP REDACTED]",
+      "ports": "UDP/34343",
+      "flows": "1",
+      "bytes": "1216",
+      "apk_evidence": "%s.lp1.p.srv.nintendo.net (libil2cpp.so)"
+    },
+    {
+      "hostname": "nat-check-0.mariokarttour.com",
+      "status": "capture only",
+      "role": "Pia NAT-type check (UDP 33334/34543)",
+      "ips": "[IP REDACTED]",
+      "ports": "UDP/33334;UDP/34543",
+      "flows": "4",
+      "bytes": "780",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "nat-check-1.mariokarttour.com",
+      "status": "capture only",
+      "role": "Pia NAT-type check (UDP 34543)",
+      "ips": "[IP REDACTED]",
+      "ports": "UDP/34543",
+      "flows": "2",
+      "bytes": "408",
+      "apk_evidence": "registrable domain 'mariokarttour.com' NOT present in APK plaintext"
+    },
+    {
+      "hostname": "%s.lp1.p.srv.nintendo.net",
+      "status": "APK template (instantiated in capture)",
+      "role": "NPLN host template",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "%s.lp1.p.srv.nintendo.net (libil2cpp.so)"
+    },
+    {
+      "hostname": "%s.dd1.p.srv.nintendo.net",
+      "status": "APK only (template, dev environment)",
+      "role": "NPLN host template",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "%s.dd1.p.srv.nintendo.net (libil2cpp.so)"
+    }
+  ],
+  "apk_only_hosts": [
+    {
+      "hostname": "166790037073-jsusu2jk8fv5ucndjprvnq9eumb2p02n.apps.googleusercontent.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "res/values"
+    },
+    {
+      "hostname": "accounts.nintendo.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex;jadx:com.nintendo"
+    },
+    {
+      "hostname": "app-measurement.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "bugsnag.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "firebaseinstallations.googleapis.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "firestore.googleapis.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "libFirebaseCppApp-12_10_0.so"
+    },
+    {
+      "hostname": "google-analytics.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "google.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "notify.bugsnag.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "npf-booster-a6913b7.appspot.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "res/values;resources.arsc"
+    },
+    {
+      "hostname": "npf-booster-a6913b7.firebaseio.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "res/values;resources.arsc"
+    },
+    {
+      "hostname": "oauth2.googleapis.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "pagead2.googlesyndication.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "play.google.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex;jadx:com.nintendo"
+    },
+    {
+      "hostname": "playgames.google.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "libFirebaseCppApp-12_10_0.so"
+    },
+    {
+      "hostname": "pubsub.mtls.googleapis.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "www.google.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "www.googleadservices.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    },
+    {
+      "hostname": "www.googleapis.com",
+      "status": "APK only",
+      "role": "",
+      "ips": "",
+      "ports": "",
+      "flows": 0,
+      "bytes": 0,
+      "apk_evidence": "classes.dex"
+    }
+  ]
+}
