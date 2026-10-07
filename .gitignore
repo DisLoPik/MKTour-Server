@@ -1,0 +1,31 @@
+# Never commit Nintendo code, dumps, metadata or extracted assets. All of this regenerates locally.
+work/
+out/rizin/
+out/restored/
+*.so
+*.dll
+*.dat
+*.apk
+*.apks
+*.xapk
+*.pcap
+*.pcapng
+# Il2CppDumper / Cpp2IL / Cecil outputs
+dump.cs
+il2cpp.h
+script.json
+stringliteral.json
+dllmeta_all.json
+# Local toolchains (built/installed per machine)
+tools/src/
+tools/rz-ghidra/
+tools/venv/
+tools/dllmeta/
+tools/Il2CppDumper/
+tools/Cpp2IL/
+# Python / .NET / editor noise
+__pycache__/
+*.py[cod]
+bin/
+obj/
+*.log

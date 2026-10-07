@@ -1,0 +1,9 @@
+# Python deps for the il2cpp analysis scripts in ../scripts (Python 3.14 OK).
+# These are separate from the repo's existing scripts 01-10 (tools/python_requirements_freeze.txt).
+protobuf==7.36.2
+pyelftools==0.33
+rzpipe==0.6.2
+capstone==5.0.9
+grpcio-tools==1.84.0
+grpcio==1.84.0
+aiohttp==3.14.4
