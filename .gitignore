@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 # Mario Kart Tour preservation research - files that must NOT be published.
 # Everything ignored here can be regenerated locally with scripts/01-10 from your own APKs/capture.
 
 # ---- Original inputs: Nintendo APKs and the raw packet capture (contains IP addresses) ----
 originals/
+=======
+# Never commit Nintendo code, dumps, metadata or extracted assets. All of this regenerates locally.
+work/
+out/rizin/
+out/restored/
+*.so
+*.dll
+*.dat
+>>>>>>> master
 *.apk
 *.apks
 *.xapk
 *.pcap
 *.pcapng
+<<<<<<< HEAD
 *.cap
 
 # ---- Unzipped APKs, apktool/jadx output and intermediate files (Nintendo code and assets) ----
@@ -42,3 +53,24 @@ desktop.ini
 .DS_Store
 .vscode/
 .idea/
+=======
+# Il2CppDumper / Cpp2IL / Cecil outputs
+dump.cs
+il2cpp.h
+script.json
+stringliteral.json
+dllmeta_all.json
+# Local toolchains (built/installed per machine)
+tools/src/
+tools/rz-ghidra/
+tools/venv/
+tools/dllmeta/
+tools/Il2CppDumper/
+tools/Cpp2IL/
+# Python / .NET / editor noise
+__pycache__/
+*.py[cod]
+bin/
+obj/
+*.log
+>>>>>>> master

@@ -409,3 +409,67 @@ Multiplayer game-logic classes (from MonoScripts) include `NetworkManager`, `Net
 | `work/` | unzipped APKs, apktool output, jadx Java sources, intermediate lists | no |
 | `unity_export/` | 589 TextAssets from data.unity3d | no |
 | `tools/` (rest) | venv, jadx, apktool (+framework), Il2CppDumper | no |
+<<<<<<< HEAD
+=======
+
+
+# MKTour-Server: protobuf schemas + endpoint map (il2cpp recovery)
+
+This contribution extends the existing preservation work (which already catalogues the 80 Sakasho REST
+paths and the `Sks*` exports at the string level) with the parts recovered from a **runtime il2cpp dump**
+of Mario Kart Tour 4.0.0 (`com.nintendo.zaka`, Unity 2022.3.69f1, IL2CPP, arm64-v8a):
+
+- the **protobuf request/response schemas** (`protos/`), and
+- an **endpoint -> HTTP method -> request/response type** map (`data/endpoints_map.csv`).
+
+Everything here is derived documentation. **No Nintendo binaries, metadata, dumps or extracted assets are
+included** (see `.gitignore`); all of it regenerates from your own copy of the game with `scripts/`.
+
+## Layout (mirrors the repo)
+
+```
+data/endpoints_map.csv   80 Sakasho paths: method, request_type, response_type, native export,
+                         C# caller, confidence (high/medium/low), notes. UNKNOWN where unresolved.
+protos/                  129 .proto files (proto2), 275 messages + 27 enums + 738 fields.
+                         One file per C# namespace; tree mirrors the package path. See protos/INDEX.md.
+                         protos/contracts.json maps each CLR type -> its proto name and fields.
+scripts/                 the analysis tooling that produced the above (see "Regenerate").
+tools/                   python_requirements.txt (deps for scripts/) and VERSIONS.md (exact tool versions).
+```
+
+## What was found (summary; full write-ups in ../Docs)
+
+- The game API is protobuf over HTTPS to `api.mariokarttour.com`; only environment 99 (Product) is wired.
+- Schemas come from protobuf-net `[ProtoContract]`/`[ProtoMember]` attributes in the dump (there are no
+  serialized FileDescriptorProto blobs in the binary). All 129 `.proto` compile with `protoc`.
+- `data/endpoints_map.csv`: method resolved for all 80 paths (27 GET, 73 POST, 5 DELETE); request type for 60,
+  response for 89 (+10 where the client parses no response body).
+- Auth: Nintendo BaaS login (signed JWT, see Docs) -> id token -> `POST /v1/players/@me/session` ->
+  session token used as `X-Sks-Session-Token`. No per-request body signing was found.
+- `SksV2SecurityVerifyPlayIntegrityJWT` actually POSTs to `/v3/daily_bonus/update_daily_bonus`
+  (`Request{jwt=1}`); Play Integrity verification is folded into the daily-bonus handler. Details in
+  ../Docs/auth_flow.md.
+
+## Regenerate from your own dump
+
+Required local inputs (NOT published; produce from your own 4.0.0 copy and place under `work/`):
+`global-metadata.dat` (decrypted) and `libil2cpp.so` (+ `libs2pcore.so`); the Il2CppDumper outputs
+`dump.cs`, `il2cpp.h`, `script.json`, `stringliteral.json`; and the Mono.Cecil dump `dllmeta_all.json`.
+
+Order (each script documents its exact inputs/outputs):
+
+1. `scripts/phase1_validate.py` - validate the metadata header and characterise the `.so`.
+2. Il2CppDumper (Auto) -> `work/il2cppdumper/` (dump.cs, il2cpp.h, script.json, stringliteral.json, DummyDll/).
+3. `scripts/dllmeta/` (`dotnet run` with Mono.Cecil) over DummyDll -> `work/dllmeta_all.json`
+   (fully-qualified types + custom-attribute args).
+4. `scripts/gen_protos.py` -> `out/protos/` (the schemas here).
+5. `scripts/build_xref_index.py` -> whole-binary xref index (callers / string / typeinfo / methodinfo users).
+6. `scripts/analyze_s2pcore.py` -> each `Sks*` export's REST path + HTTP method (from libs2pcore.so).
+7. `scripts/endpoint_map.py` -> `out/endpoints_map.csv` (this file).
+
+For the rizin workflow: `scripts/make_rizin_labels.py` -> `out/rizin/labels.rz`
+(`rizin -i out/rizin/labels.rz <libil2cpp.so>`), and `scripts/build_rz_ghidra.bat` to build the rz-ghidra
+`pdg` decompiler. Helpers: `il2cpp_refs.py`, `disasm.py`, `callpaths.py`, `s2pcore_xrefs.py`, `verify_labels.py`.
+
+Tool versions: `tools/VERSIONS.md`. Python deps: `pip install -r tools/python_requirements.txt`.
+>>>>>>> master
